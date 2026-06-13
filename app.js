@@ -157,14 +157,13 @@ function renderQuestion() {
   document.getElementById('q-text').textContent = q.question;
 
   // Image
-  const imgContainer = document.getElementById('q-image-container');
-  const imgElement = document.getElementById('q-image');
-  if (q.image) {
-    imgElement.src = q.image;
-    imgContainer.style.display = 'block';
+  const imgContainer = document.getElementById('q-images-container');
+  if (q.images && q.images.length > 0) {
+    imgContainer.innerHTML = q.images.map(src => `<img src="${src}" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />`).join('');
+    imgContainer.style.display = 'flex';
   } else {
     imgContainer.style.display = 'none';
-    imgElement.src = '';
+    imgContainer.innerHTML = '';
   }
 
   // flag
@@ -178,7 +177,15 @@ function renderQuestion() {
     const btn = document.createElement('button');
     btn.className = 'option-btn';
     btn.dataset.letter = opt.letter;
-    btn.innerHTML = `<span class="option-letter">${opt.letter.toUpperCase()}</span><span>${opt.text}</span>`;
+    let optHtml = `<div style="display:flex; width: 100%;"><span class="option-letter">${opt.letter.toUpperCase()}</span><span style="flex: 1; text-align: left;">${opt.text}</span></div>`;
+    if (opt.images && opt.images.length > 0) {
+      optHtml += `<div style="width: 100%; display: flex; flex-direction: column; gap: 8px; align-items: center; margin-top: 8px;">` + 
+                 opt.images.map(src => `<img src="${src}" style="max-width: 100%; border-radius: 4px; border: 1px solid var(--border);" />`).join('') +
+                 `</div>`;
+      btn.style.flexDirection = 'column';
+      btn.style.alignItems = 'flex-start';
+    }
+    btn.innerHTML = optHtml;
 
     const chosen = STATE.answers[i];
     if (STATE.submitted) {
@@ -407,16 +414,20 @@ function renderReviewList(questions, answers, origList) {
         <span class="ri-chapter">${q.chapter}</span>
       </div>
       <div class="ri-question">${q.question}</div>
-      ${q.image ? `<div style="text-align:center; margin-bottom:12px;"><img src="${q.image}" style="max-width:100%; border-radius:8px;" /></div>` : ''}
+      ${q.images && q.images.length > 0 ? `<div style="display:flex; flex-direction:column; gap:8px; align-items:center; margin-bottom:12px;">` + q.images.map(src => `<img src="${src}" style="max-width:100%; border-radius:8px;" />`).join('') + `</div>` : ''}
       <div class="ri-options">
         ${q.options.map(opt => {
           let cls = 'normal';
           if (opt.correct) cls = 'correct-ans';
           else if (userAns === opt.letter) cls = 'user-wrong';
+          let optImgHtml = (opt.images && opt.images.length > 0) 
+            ? `<div style="display:flex; flex-direction:column; gap:8px; align-items:center; margin-top:8px;">` + opt.images.map(src => `<img src="${src}" style="max-width:100%; border-radius:4px;" />`).join('') + `</div>` 
+            : '';
           return `<div class="ri-option ${cls}">
             <strong>${opt.letter.toUpperCase()}.</strong> ${opt.text}
             ${opt.correct ? ' ✓' : ''}
             ${userAns === opt.letter && !opt.correct ? ' ← bạn chọn' : ''}
+            ${optImgHtml}
           </div>`;
         }).join('')}
       </div>

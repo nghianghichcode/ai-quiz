@@ -2,7 +2,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Hiện nay nghiên cứu về trí tuệ nhân tạo được tiếp cận theo hướng nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -30,12 +29,11 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Mục tiêu truyền thống của trí tuệ nhân tạo KHÔNG nghiên cứu về chủ đề nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "Thông tin (information)",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -50,15 +48,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "Lập luận (reasonning)",
-        "correct": false
+        "correct": true
       }
     ],
-    "correct": "a"
+    "correct": "d"
   },
   {
     "chapter": "Chương 1-4",
     "question": "Môi trường của các thuật toán tìm kiếm TREE-SEARCH và GRAPH-SEARCH được giả sử bao gồm những đặc tính nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -86,7 +83,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Tác tử thực hiện một hành động dựa trên nhận thức hiện tại và tập luật đã được xây dựng gọi là tác tử gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -114,7 +110,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Khi thực hiện thuật toán GRAPH-SEACH để tìm kiếm đường đi trên một đồ thị liên thông có đỉnh đầu khác đỉnh đích, xét trên cây tìm kiếm thì thuật toán dừng khi nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -142,7 +137,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Giả sử b là nhân tố nhánh, m là độ sâu và d là độ sâu tìm được nghiệm của cây tìm kiếm. Thuật toán tìm kiếm nào nào trong các thuật toán sau tìm được nghiệm mà độ phức tạp tính toán thõa mãn điều kiện d = m.",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -170,7 +164,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Giả sử b là nhân tố nhánh, m là độ sâu và d là độ sâu tìm được nghiệm của cây tìm kiếm, độ phức tạp thời gian và độ phức tạp tính toán của thuật toán tìm kiếm theo chiều rộng là bao nhiêu?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -198,7 +191,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Tác tử phản xạ đơn (simple reflex agents) chọn hành động để thưc hiện dựa trên yếu tố nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -226,9 +218,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng thuật toán TREE-SEARCH với cấu trúc dữ liệu \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G trên đồ thị sau, kết quả của thuật toán là gì?",
-    "images": [
-      "ch14_001.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -252,12 +241,13 @@ const QUESTIONS = [
       }
     ],
     "correct": "d",
-    "image": "assets/img_22.png"
+    "images": [
+      "assets/img_1.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Môi trường làm việc của một tác tử lái xe tự động KHÔNG có đặc điểm nào sau đây?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -285,7 +275,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Các hệ thống máy tính có khả năng suy nghĩ, lập luận và học tập được gọi là gì ?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -313,12 +302,11 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Trí tuệ nhân tạo nghiên cứu về lĩnh vực nào trong các lĩnh vực sau?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "Đưa sự thông minh của bạn vào máy tính.",
-        "correct": false
+        "correct": true
       },
       {
         "letter": "b",
@@ -333,17 +321,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "Thiết kế máy thông minh.",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": "a"
   },
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng giải thuật UCS để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau, tập các nút và giá của nó của cây tìm kiếm ở độ sâu d = 2 gồm các nút nào?",
-    "images": [
-      "ch14_002.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -367,12 +352,13 @@ const QUESTIONS = [
       }
     ],
     "correct": "b",
-    "image": "assets/img_28.png"
+    "images": [
+      "assets/img_2.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Nhiệm vụ của trí tuệ nhân tạo là gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -400,9 +386,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng thuật toán tìm kiếm từ 2 hướng (bidirectional search) để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau, thuật toán sẽ tìm được đường đi nào?",
-    "images": [
-      "ch14_003.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -426,12 +409,13 @@ const QUESTIONS = [
       }
     ],
     "correct": "a",
-    "image": "assets/img_30.png"
+    "images": [
+      "assets/img_3.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Khi nào thuật toán BFS tìm được đường đi ngắn nhất cho một đồ thị?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -459,9 +443,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng thuật toán TREE-SEARCH với cấu trúc \"frontier\" trong thuật toán là LIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì độ sâu tối đa để tìm thấy nghiệm của cây tìm kiếm là bao nhiêu?",
-    "images": [
-      "ch14_004.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -484,14 +465,14 @@ const QUESTIONS = [
         "correct": true
       }
     ],
-    "correct": "d"
+    "correct": "d",
+    "images": [
+      "assets/img_4.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng thuật toán GRAPH-SEARCH với cấu trúc dữ liệu \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì tất cả các nút của cây tìm kiếm ở độ sâu d = 2 gồm những nút nào?",
-    "images": [
-      "ch14_005.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -515,12 +496,13 @@ const QUESTIONS = [
       }
     ],
     "correct": "b",
-    "image": "assets/img_19.png"
+    "images": [
+      "assets/img_5.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Tác tử phản xạ đơn giản (simple reflex agents) phải hoạt động trong môi trường có đặc tính nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -548,7 +530,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Đặc tính của môi trường của tác tử trong trò chơi 8 số (8- puzzle) là gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -576,7 +557,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Tác tử tương tác với môi trường thông qua thành phần nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -604,7 +584,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Khi áp dụng thuật toán tìm kiếm theo chiều rộng để tìm đường đi từ một đỉnh đến một đỉnh khác trên một đồ thị, đường nghiệm có tính chất gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -632,7 +611,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Trong khoa học máy tính, nghiên cứu trí tuệ nhân tạo được định nghĩa là gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -660,7 +638,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Khi thực hiện thuật toán tìm kiếm GRAPH-SEACH trên một đồ thị, trường hợp nào thuật toán trả về cấu trúc frontier là rỗng (thuật toán không tìm thấy nghiệm)?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -688,7 +665,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "nghiệm \"task environment\" của một tác tử KHÔNG bao gồm thành phần nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -716,7 +692,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Một tác tử hợp lý KHÔNG yêu cầu có khả năng nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -744,9 +719,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Kiểu của cấu trúc dữ liệu \"frontier\" trong thuật GRAPH-SEARCH là gì để thuật toán tìm được đường đi từ đỉnh S đến đỉnh G trên đồ thị sau là: S-A-D-G?",
-    "images": [
-      "ch14_006.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -770,14 +742,13 @@ const QUESTIONS = [
       }
     ],
     "correct": "c",
-    "image": "assets/img_20.png"
+    "images": [
+      "assets/img_6.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng giải thuật UCS để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau, đường đi tìm được là đường nào và có giá thành là bao nhiêu?",
-    "images": [
-      "ch14_007.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -800,14 +771,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "images": [
+      "assets/img_7.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng thuật toán GRAPH-SEARCH với cấu trúc \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì độ sâu tìm thấy nghiệm của cây tìm kiếm là bao nhiêu?",
-    "images": [
-      "ch14_008.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -830,12 +801,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": "a",
+    "images": [
+      "assets/img_8.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Hiệu suất của một tác tử có thể được cải thiện bởi quá trình nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -863,14 +836,11 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng thuật toán TREE-SEARCH để tìm đường đi từ đỉnh S đến đỉnh G trên đồ thị sau, kết quả của thuật toán là gì?",
-    "images": [
-      "ch14_009.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "Phụ thuộc vào cấu trúc dữ liệu \"frontier\" là FIFO hay LIFO",
-        "correct": false
+        "correct": true
       },
       {
         "letter": "b",
@@ -880,7 +850,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Đường đi: S-B-G lifo",
-        "correct": false
+        "correct": true
       },
       {
         "letter": "d",
@@ -889,12 +859,13 @@ const QUESTIONS = [
       }
     ],
     "correct": "d",
-    "image": "assets/img_16.png"
+    "images": [
+      "assets/img_9.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Khi áp dụng thuật toán tìm kiếm theo chiều sâu để tìm đường đi từ một đỉnh đến một đỉnh khác trên một đồ thị, đường nghiệm có tính chất gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -922,9 +893,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng thuật toán tìm kiếm chiều sâu với độ sâu tối đa l = 2 cho đồ thị sau, thuật toán có thể tìm được bao nhiêu đường đi khác nhau từ đỉnh A đến đỉnh E?",
-    "images": [
-      "ch14_010.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -948,14 +916,13 @@ const QUESTIONS = [
       }
     ],
     "correct": "a",
-    "image": "assets/img_24.png"
+    "images": [
+      "assets/img_10.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng thuật toán TREE-SEARCH với cấu trúc \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì đường đi tìm được là gì?",
-    "images": [
-      "ch14_011.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -978,12 +945,14 @@ const QUESTIONS = [
         "correct": true
       }
     ],
-    "correct": "d"
+    "correct": "d",
+    "images": [
+      "assets/img_11.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Tìm kiếm quay lui là tên gọi khác của thuật toán nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1011,9 +980,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Cho lưới đường đi như sau, biết rằng tại môi ô có thể đi đến các ô lân cận theo 4 hướng với chiều dài là 1. Nếu áp dụng thuật toán UCS để tìm đường đi từ ô c đến ô c thì cây tìm kiếm ở độ sâu d = 2 sẽ có bao nhiêu nút?",
-    "images": [
-      "ch14_012.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -1037,14 +1003,13 @@ const QUESTIONS = [
       }
     ],
     "correct": "d",
-    "image": "assets/img_29.png"
+    "images": [
+      "assets/img_12.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Nếu áp dụng thuật toán tìm kiếm chiều sâu giới hạn độ sâu l = 2 để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau, thuật toán sẽ tìm được đường đi nào?",
-    "images": [
-      "ch14_013.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -1067,14 +1032,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "images": [
+      "assets/img_13.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Cho cây tìm kiếm của thuật toán UCS như sau, cấu trúc \"explored set\" của thuật toán UCS sẽ bao gồm những đỉnh nào?",
-    "images": [
-      "ch14_014.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -1098,12 +1063,13 @@ const QUESTIONS = [
       }
     ],
     "correct": "b",
-    "image": "assets/img_27.png"
+    "images": [
+      "assets/img_14.png"
+    ]
   },
   {
     "chapter": "Chương 1-4",
     "question": "Không gian trạng thái (state space) của một bài toán tìm kiếm được xác định dựa trên yếu tố nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1131,9 +1097,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4",
     "question": "Cho cây tìm kiếm của thuật toán UCS như sau, cấu trúc \"frontier\" của thuật toán UCS sẽ bao gồm những đỉnh nào?",
-    "images": [
-      "ch14_015.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -1156,12 +1119,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "images": [
+      "assets/img_15.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Một tác tử hợp lý KHÔNG yêu cầu có khả năng nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1189,7 +1154,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Tác tử phản xạ đơn giản (simple reflex agents) phải hoạt động trong môi trường có đặc tính nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1217,7 +1181,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Tác tử phản xạ dựa trên mô hình phải hoạt động trong môi trường có đặc tính nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1245,7 +1208,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Hiệu suất của một tác tử có thể được cải thiện bởi quá trình nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1255,7 +1217,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "Học (learning)",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -1268,12 +1230,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Các hệ thống máy tính có khả năng suy nghĩ, lập luận và học tập được gọi là gì ?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1301,7 +1262,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Trí tuệ nhân tạo nghiên cứu về lĩnh vực nào trong các lĩnh vực sau?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1316,7 +1276,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Thiết kế máy thông minh.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -1324,12 +1284,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Đặc tính của môi trường của tác tử trong trò chơi 8 số (8- puzzle) là gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1357,7 +1316,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Tác tử phản xạ đơn (simple reflex agents) chọn hành động để thưc hiện dựa trên yếu tố nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1385,7 +1343,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Môi trường làm việc của một tác tử lái xe tự động KHÔNG có đặc điểm nào sau đây?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1413,7 +1370,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Môi trường làm việc của một tác tử chuẩn đoán bệnh KHÔNG có đặc điểm nào sau đây?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1441,7 +1397,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Tác tử tương tác với môi trường thông qua thành phần nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1469,7 +1424,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Hiện nay nghiên cứu về trí tuệ nhân tạo được tiếp cận theo hướng nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1497,7 +1451,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Khái niệm \"task environment\" của một tác tử KHÔNG bao gồm thành phần nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1525,7 +1478,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Tác tử thực hiện một hành động dựa trên nhận thức hiện tại và tập luật đã được xây dựng gọi là tác tử gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1553,7 +1505,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nhiệm vụ của trí tuệ nhân tạo là gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1568,7 +1519,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Thiết kế một chương trình tác tử (agent program)",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -1576,12 +1527,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Khi thực hiện thuật toán tìm kiếm GRAPH-SEACH trên một đồ thị, trường hợp nào thuật toán trả về cấu trúc frontier là rỗng (thuật toán không tìm thấy nghiệm)?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1609,9 +1559,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng thuật toán TREE-SEARCH để tìm đường đi từ đỉnh S đến đỉnh G trên đồ thị sau, kết quả của thuật toán là gì?",
-    "images": [
-      "ot14_001.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -1621,7 +1568,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "Phụ thuộc vào cấu trúc dữ liệu \"frontier\" là FIFO hay LIFO",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -1634,12 +1581,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null,
+    "images": [
+      "assets/img_16.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Mục tiêu truyền thống của trí tuệ nhân tạo KHÔNG nghiên cứu về chủ đề nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1649,7 +1598,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "Thông tin (information)",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -1662,14 +1611,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng thuật toán TREE-SEARCH với cấu trúc \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì đường đi tìm được là gì?",
-    "images": [
-      "ot14_002.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -1684,7 +1630,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "S – D – F – G",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -1692,12 +1638,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_17.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Không gian trạng thái (state space) của một bài toán tìm kiếm được xác định dựa trên yếu tố nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1725,7 +1673,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Môi trường của các thuật toán tìm kiếm TREE-SEARCH và GRAPH-SEARCH được giả sử bao gồm những đặc tính nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1740,7 +1687,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Quan sát được hoàn toàn (fully observable), rời rạc (discrete), được biết trước (known) và xác định (deterministic).",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -1748,14 +1695,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng thuật toán GRAPH-SEARCH với cấu trúc dữ liệu \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì tất cả các nút của cây tìm kiếm ở độ sâu d = 2 gồm những nút nào?",
-    "images": [
-      "ot14_003.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -1765,7 +1709,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "{C,E,F,I}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -1778,19 +1722,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null,
+    "images": [
+      "assets/img_18.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng thuật toán GRAPH-SEARCH với cấu trúc \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì độ sâu tìm thấy nghiệm của cây tìm kiếm là bao nhiêu?",
-    "images": [
-      "ot14_004.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "2",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -1808,19 +1752,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_19.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Kiểu của cấu trúc dữ liệu \"frontier\" trong thuật GRAPH-SEARCH là gì để thuật toán tìm được đường đi từ đỉnh S đến đỉnh G trên đồ thị sau là S-A-D-G?",
-    "images": [
-      "ot14_005.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "LIFO",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -1838,19 +1782,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_20.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng thuật toán TREE-SEARCH với cấu trúc \"frontier\" trong thuật toán là LIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì độ sâu tối đa để tìm thấy nghiệm của cây tìm kiếm là bao nhiêu?",
-    "images": [
-      "ot14_006.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "5",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -1868,12 +1812,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_21.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Trong khoa học máy tính, nghiên cứu trí tuệ nhân tạo được định nghĩa là gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1901,9 +1847,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng thuật toán TREE-SEARCH với cấu trúc dữ liệu \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G trên đồ thị sau, kết quả của thuật toán là gì?",
-    "images": [
-      "ot14_007.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -1923,15 +1866,17 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "Đường đi S-B-G",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null,
+    "images": [
+      "assets/img_22.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Giả sử b là nhân tố nhánh, m là độ sâu và d là độ sâu tìm được nghiệm của cây tìm kiếm, độ phức tạp thời gian và độ phức tạp tính toán của thuật toán tìm kiếm theo chiều rộng là bao nhiêu?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1941,7 +1886,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "O(bd ) và O(bd )",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -1954,12 +1899,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Khi áp dụng thuật toán tìm kiếm theo chiều rộng để tìm đường đi từ một đỉnh đến một đỉnh khác trên một đồ thị, đường nghiệm có tính chất gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -1987,7 +1931,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Khi thực hiện thuật toán GRAPH-SEACH để tìm kiếm đường đi trên một đồ thị liên thông có đỉnh đầu khác đỉnh đích, xét trên cây tìm kiếm thì thuật toán dừng khi nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2015,7 +1958,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Giả sử b là nhân tố nhánh, m là độ sâu và d là độ sâu tìm được nghiệm của cây tìm kiếm. Thuật toán tìm kiếm nào nào trong các thuật toán sau tìm được nghiệm mà độ phức tạp tính toán thõa mãn điều kiện d = m.",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2035,15 +1977,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "Tìm kiếm theo chiều rộng",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Khi áp dụng thuật toán tìm kiếm theo chiều sâu để tìm đường đi từ một đỉnh đến một đỉnh khác trên một đồ thị, đường nghiệm có tính chất gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2071,14 +2012,11 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng thuật toán tìm kiếm chiều sâu với độ sâu tối đa l = 2 cho đồ thị sau, thuật toán có thể tìm được bao nhiêu đường đi khác nhau từ đỉnh A đến đỉnh E?",
-    "images": [
-      "ot14_008.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "2",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -2096,12 +2034,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_23.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Khi nào thuật toán BFS tìm được đường đi ngắn nhất cho một đồ thị?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2129,14 +2069,11 @@ const QUESTIONS = [
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng thuật toán tìm kiếm chiều sâu giới hạn độ sâu l = 2 để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau, thuật toán sẽ tìm được đường đi nào?",
-    "images": [
-      "ot14_009.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "S – D – G",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -2154,12 +2091,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_24.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Giả sử b là nhân tố nhánh, m là độ sâu và d là độ sâu tìm được nghiệm của cây tìm kiếm, độ phức tạp thời gian và độ phức tạp tính toán của thuật toán tìm kiếm theo chiều sâu là bao nhiêu?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2179,17 +2118,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "O(bm) và O(bm)",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Cho cây tìm kiếm của thuật toán UCS như sau, cấu trúc \"explored set\" của thuật toán UCS sẽ bao gồm những đỉnh nào?",
-    "images": [
-      "ot14_010.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2204,7 +2140,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "{S, A, B}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -2212,14 +2148,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_25.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng giải thuật UCS để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau, đường đi tìm được là đường nào và có giá thành là bao nhiêu?",
-    "images": [
-      "ot14_011.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2229,7 +2165,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "S – D – G  g(G) = 8",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -2242,14 +2178,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null,
+    "images": [
+      "assets/img_26.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Cho cây tìm kiếm của thuật toán UCS như sau, cấu trúc \"frontier\" của thuật toán UCS sẽ bao gồm những đỉnh nào?",
-    "images": [
-      "ot14_012.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2259,7 +2195,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "{(C,8), (D,12), (E,10)}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -2272,19 +2208,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null,
+    "images": [
+      "assets/img_27.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng giải thuật UCS để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau, tập các nút và giá của nó của cây tìm kiếm ở độ sâu d = 2 gồm các nút nào?",
-    "images": [
-      "ot14_013.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "{(C,8), (D,7),(G,13)}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -2302,19 +2238,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_28.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Cho lưới đường đi như sau, biết rằng tại môi ô có thể đi đến các ô lân cận theo 4 hướng với chiều dài là 1. Nếu áp dụng thuật toán UCS để tìm đường đi từ ô c13 đến ô c25 thì cây tìm kiếm ở độ sâu d = 2 sẽ có bao nhiêu nút?",
-    "images": [
-      "ot14_014.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "8",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -2332,14 +2268,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_29.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Nếu áp dụng thuật toán tìm kiếm từ 2 hướng (bidirectional search) để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau, thuật toán sẽ tìm được đường đi nào?",
-    "images": [
-      "ot14_015.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2349,7 +2285,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "S – D – G",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -2362,12 +2298,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null,
+    "images": [
+      "assets/img_30.png"
+    ]
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
     "question": "Tìm kiếm quay lui là tên gọi khác của thuật toán nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2395,7 +2333,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 5-7",
     "question": "Khái niệm nào sau đây KHÔNG được sử dụng trong giải thuật di truyền? Chọn một:",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2415,17 +2352,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "Làng giềng (neighbours)",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đình được ghi trên các cạnh. Ở vòng lặp thứ 2, cấu trúc \"frontier\" của thuật toán A* gồm những đình nào?",
-    "images": [
-      "ch57_002.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2435,18 +2369,17 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "(A,14), (B,15), (C,11), (G,12)",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "b",
-    "image": "assets/img_48.png"
+    "correct": null,
+    "images": [
+      "assets/img_31.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giả để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Hàm heuristic của đỉnh nào vi phạm tính chấp nhận được?",
-    "images": [
-      "ch57_003.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2461,7 +2394,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "D",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -2469,19 +2402,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_32.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Giả sử có cây tìm kiếm như sau và trạng thái tìm kiếm hiện thời là trạng thái B, khi đó thuật toán tìm kiếm leo đồi sẽ tìm kiếm một trạng thái tiếp theo trong tập các trạng thái nào?",
-    "images": [
-      "ch57_004.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "{D, E, F}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -2499,50 +2432,34 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a",
-    "image": "assets/img_34.png"
+    "correct": null,
+    "images": [
+      "assets/img_33.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Hàm heuristic của đỉnh nào vi phạm tỉnh đồng nhất?",
-    "images": [
-      "ch57_005.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "C",
         "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "A",
-        "correct": true
-      },
-      {
-        "letter": "c",
-        "text": "S",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "B",
-        "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null,
+    "images": [
+      "assets/img_34.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giả để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Nếu áp dụng giải thuật A* để tìm đường đi từ đỉnh S đến đỉnh G, hàm đánh giá f(E) bằng bao nhiêu?",
-    "images": [
-      "ch57_006.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "f(E) = 17",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -2560,14 +2477,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_35.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Để tìm đường đi ngắn nhất từ đỉnh S đến đỉnh G của một đồ thị, nếu cây tìm kiếm của thuật toán tìm kiếm Beam với k = 2 được xây dựng như sau, trong đó ký hiệu h là hàm heuristic ước lượng khoảng cách đến đích thì những nút nào tiếp theo của cây sẽ được chọn để mở rộng cây?",
-    "images": [
-      "ch57_007.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2582,7 +2499,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "{C,E}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -2590,20 +2507,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c",
-    "image": "assets/img_38.png"
+    "correct": null,
+    "images": [
+      "assets/img_36.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Để tìm đường đi ngắn nhất từ đỉnh S đến đỉnh G của một đồ thị, nếu cây tìm kiếm của thuật toán leo đồi được xây dựng như sau, trong đó ký hiệu h là hàm heuristic ước lượng khoảng cách đến đích thì nút nào của cây bị SAI?",
-    "images": [
-      "ch57_008.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "C",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -2621,17 +2537,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_37.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Trong thuật toán A*, hàm f(n) = g(n) + h(n). Khẳng định nào sau đây là sai?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "g(n) là chi phí thực tế từ trạng thái đầu đến trạng thái n.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -2649,14 +2567,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho cây tìm kiếm của thuật toán A* như sau, cấu trúc \"frontier\" của thuật toán A* sẽ bao gồm những đình nào?",
-    "images": [
-      "ch57_009.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2671,7 +2586,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "{(C,12), (D,6), (Ε,8)}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -2679,13 +2594,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c",
-    "image": "assets/img_39.png"
+    "correct": null,
+    "images": [
+      "assets/img_38.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Thuật toán tìm kiếm A* là thuật toán thuộc loại nào trong các loại sau?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2713,7 +2629,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 5-7",
     "question": "Thuật toán nào trong các thuật toán sau đây KHÔNG phải là thuật toán tìm kiếm cục bộ?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2741,7 +2656,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 5-7",
     "question": "Trong mỗi vòng lặp của giải thuật di truyền, thứ tự các toán tử sẽ được thực hiện như thế nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2769,37 +2683,18 @@ const QUESTIONS = [
   {
     "chapter": "Chương 5-7",
     "question": "Trong thuật toán A*, gọi h*(n) là giá thực tế từ trạng thái n đến trạng thái đích, khi đó một hàm heuristic h(n) là chấp nhận được nếu điều kiện nào sau đây là đúng?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "h(n) ≥ h*(n) với mọi nút n.",
         "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "h(n) ≤ h*(n) với một nút n nào đó.",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "h(n) ≤ h*(n) với mọi nút n.",
-        "correct": true
-      },
-      {
-        "letter": "d",
-        "text": "h(n) ≥ h*(n) với một nút n nào đó.",
-        "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Giải thuật A* không tìm được đường đi ngắn nhất từ đỉnh S đến đỉnh G vì sao?",
-    "images": [
-      "ch57_010.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2814,7 +2709,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Đình C vi phạm tính đồng nhất",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -2822,19 +2717,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_39.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Nếu áp dụng thuật toán leo đồi cho hàm số với đồ thị sau, phát biểu nào sau đây là SAI?",
-    "images": [
-      "ch57_011.png"
-    ],
     "options": [
       {
         "letter": "a",
         "text": "Xuất phát từ đình D, nghiệm tìm được là đỉnh F.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -2852,15 +2747,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a",
-    "image": "assets/img_47.png"
+    "correct": null,
+    "images": [
+      "assets/img_40.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Nếu áp dụng thuật toán leo đồi (hill-climbing search) để tìm giá trị lớn nhất cho hàm số f(x) có đồ thị như sau với x nguyên và 0 <= x <= 30 phát biểu nào sau đây là đúng?",
-    "images": [
-      "ch57_012.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2875,7 +2769,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Thuật toán tìm được giá trị lớn nhất của hàm f(x) phụ thuộc vào điểm xuất phát ban đầu.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -2883,45 +2777,29 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c",
-    "image": "assets/img_42.png"
+    "correct": null,
+    "images": [
+      "assets/img_41.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Thuật toán tìm kiếm leo đồi (hill-climbing) tìm được đường đi nào từ đỉnh S đến đỉnh G?",
-    "images": [
-      "ch57_013.png"
-    ],
+    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Thuật toán tìm kiếm leo đồi (hill-climbing) tìm được đường đi nào từ đỉnh S đến đỉnh G?\na.S-A-C-E-G\nb.S-A-D-G",
     "options": [
-      {
-        "letter": "a",
-        "text": "S-A-C-E-G",
-        "correct": true
-      },
-      {
-        "letter": "b",
-        "text": "S-A-D-G",
-        "correct": false
-      },
       {
         "letter": "c",
         "text": "S-B-E-G",
         "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "S-B-C-E-G",
-        "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_42.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Nếu áp dụng thuật toán leo đồi khởi tạo lại ngẫu nhiên (random-restart hill climbing) để tìm được giá trị lớn nhất cho hàm số với đồ thị sau, thuật toán có thể khởi tạo tại tập những đình nào?",
-    "images": [
-      "ch57_014.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2931,7 +2809,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "{A,H}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -2944,13 +2822,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b",
-    "image": "assets/img_44.png"
+    "correct": null,
+    "images": [
+      "assets/img_43.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Trong thuật toán weighted A*, hàm đánh giá f(n) = g(n) + W*h(n). Nếu W = ∞, thì thuật toán weighted A* trở thành thuật toán nào sau đây?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -2978,9 +2857,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 5-7",
     "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đình được ghi trên các cạnh. Ở vòng lặp thứ 2, cấu trúc \"explored\" của thuật toán A* gồm những đỉnh nào?",
-    "images": [
-      "ch57_015.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -2995,7 +2871,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "{S,D}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -3003,17 +2879,19 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_44.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Trong giải thuật di truyền, giả sử có 2 cá thể với gen được biểu diễn bởi dãy bịt nhị phân như sau: x = 10011, y = 01010. Nếu lai ghép cá thể x và y với điểm cắt c = 2, thì giải thuật sinh ra một cá thể con z có gen như thế nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "z = 10010",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -3031,14 +2909,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Hàm heuristic của đỉnh nào vi phạm tính đồng nhất?",
-    "images": [
-      "ch57_016.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -3058,17 +2933,17 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "B",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null,
+    "images": [
+      "assets/img_45.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Nếu áp dụng thuật toán leo đồi cho hàm số với đồ thị sau, phát biểu nào sau đây là đúng?",
-    "images": [
-      "ch57_017.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -3083,7 +2958,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Thuật toán tìm được giá trị của hàm f(x) phụ thuộc vào điểm xuất phát.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -3091,12 +2966,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_46.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Thuật toán nào sau đây là thuật toán tìm kiếm cục bộ?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3123,21 +3000,8 @@ const QUESTIONS = [
   },
   {
     "chapter": "Chương 5-7",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Thuật toán tìm kiếm tham lam (greedy search) tìm được đường đi nào để đi từ đỉnh S đến đình G?",
-    "images": [
-      "ch57_018.png"
-    ],
+    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Thuật toán tìm kiếm tham lam (greedy search) tìm được đường đi nào để đi từ đỉnh S đến đình G?\na.S-D-G\nb.S-B-G",
     "options": [
-      {
-        "letter": "a",
-        "text": "S-D-G",
-        "correct": true
-      },
-      {
-        "letter": "b",
-        "text": "S-B-G",
-        "correct": false
-      },
       {
         "letter": "c",
         "text": "S-A-D-G",
@@ -3149,12 +3013,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null,
+    "images": [
+      "assets/img_47.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Một bài toán thõa mãn ràng buộc được định nghĩa gồm bộ 3 (X,D,C), phát biểu nào sau đây là SAI?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3169,7 +3035,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "(C11 C21... 1Cn} là tập các ràng buộc của các biến.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -3177,14 +3043,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán tô màu bản đồ như sau, trong đó vùng Vi có miền giá trị Di (i = 1,2,..6). Nếu áp dụng thuật toán tìm kiếm quay lui kết hợp kiểm tra tiến với thứ tự động thì vùng nào được chọn làm vùng bắt đầu?",
-    "images": [
-      "ch57_019.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -3204,16 +3067,17 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "V3",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d",
-    "image": "assets/img_51.png"
+    "correct": null,
+    "images": [
+      "assets/img_48.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán thõa mãn ràng buộc (X,D,C), trong đó X = (x1, x2, x3), D = {D1, D2, D3} với D1 = {1, 2, 3}, D2 = {1, 2, 3} D3 = {2, 3} và C = {x1 > x2, x2 # x3, x2+ x3 > 4}. Phép gán nào sau đây là nghiệm của bài toán?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3233,17 +3097,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "x1 = 3, x2 = 2 , x3 = 3",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán tô màu có bản đồ được biểu diễn bằng đồ thị sau, trong đó đình V1 có miền giá trị D1, đỉnh V2 có miền giá trị D2 và đỉnh V3 có miền giá trị D3. Thuật toán AC3 sẽ cho kết quả tô màu như thế nào?",
-    "images": [
-      "ch57_020.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -3258,7 +3119,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "V1 = {B} , V2 = {R}, V3 = {G}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -3266,13 +3127,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c",
-    "image": "assets/img_54.png"
+    "correct": null,
+    "images": [
+      "assets/img_49.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán thõa mãn ràng buộc (X,D,C), trong đó X = (x1, x2, x3), D = {D1, D2, D3} với D1 = {2,4,5,7), D2 = {3,5,6,8), D3 = {1,5,6,7) và C = {x1 = x2, x2 = x3}. Để đạt được thõa mãn ràng buộc trên cạnh x1 - x3, cần xóa các giá trị nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3287,7 +3149,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Xóa (5,7} trong D1.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -3295,12 +3157,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán thõa mãn ràng buộc (X,D,C), trong đó X = (x1, x2, x3), D = {D1, D2, D3} với D1 = {1,2,3,4}, D2= {1,2,3}, D3 = (2,3) và C = {x1 > 2, x2 # x3, x1 + x2+ x3 > 4}. Ràng buộc nào trong tập C là ràng buộc đơn biến?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3315,7 +3176,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "x1 > 2",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -3323,14 +3184,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán tô màu bản đồ như sau, trong đó vùng Vi có miền giá trị Di (i = 1, 2, 3, 4) . Nếu áp dụng thuật toán tìm kiếm quay lui kết hợp với kiểm tra tiến với V2 được gán là {R} thì các miền còn lại có giá trị như thế nào?",
-    "images": [
-      "ch57_021.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -3340,7 +3198,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "D1 = {G, B} , D3 = {G}, D4 = {G, B}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -3353,14 +3211,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null,
+    "images": [
+      "assets/img_50.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán tô màu có bản đồ (V,D,C) được biểu diễn bằng đồ thị sau, trong đó V = {V1,V2, V3}, D = {D1,D2,D3} và C = {V1 # V2, V2 # V3, V3 ≠ V1}. Nếu áp dụng thuật toán min-conflicts với phép gán current = {G,R,G} thì những biến nào là biến xung đột?",
-    "images": [
-      "ch57_022.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -3370,7 +3228,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "V1 và V3",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -3383,15 +3241,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b",
-    "image": "assets/img_52.png"
+    "correct": null,
+    "images": [
+      "assets/img_51.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán tô màu có bản đồ được biểu diễn bằng đồ thị sau, trong đó đỉnh V1 có miền giá trị D1, đình V2 có miền giá trị D2 và đình V3 có miền giá trị D3. Để đạt được thõa mãn ràng buộc trên cạnh V1 - V2, cần xóa giá trị nào?",
-    "images": [
-      "ch57_023.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -3401,7 +3258,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "Xóa R trong miền D1",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -3414,12 +3271,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null,
+    "images": [
+      "assets/img_52.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán thõa mãn ràng buộc (X,D,C), trong đó X = (x1, x2, x3}, D = {D1, D2, D3} với D1 = {2,4,5,6), D2 = {3,5,6,8), D3 = {2,5,6,7) và C = {x1 = x2, x2 = x3}. Để đạt được thỏa mãn ràng buộc trên cạnh x1 - x2, cần xóa các giá trị nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3429,7 +3288,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "Xóa {2,4} trong D1.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -3442,14 +3301,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Cho bài toán tô màu có bản đồ được biểu diễn bằng đồ thị sau, trong đó đỉnh V1 có miền giá trị D1, đỉnh V2 có miền giá trị D2 và đình V3 có miền giá trị D3. Thuật toán AC3 sẽ cho kết quả tô màu như thế nào?",
-    "images": [
-      "ch57_024.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -3464,7 +3320,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Không tìm được nghiệm.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -3472,12 +3328,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_53.png"
+    ]
   },
   {
     "chapter": "Chương 5-7",
     "question": "Trong mỗi vòng lặp của thuật toán min-conflicts, giá trị được chọn để gán cho một biến đã được chọn là:",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3492,7 +3350,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Giá trị có xung đột nhỏ nhất.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -3500,12 +3358,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 5-7",
     "question": "Trong mỗi vòng lặp của thuật toán min-conflicts, một biến được chọn là:",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3525,15 +3382,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "Biến xung đột với các biến khác.",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Giả sử p và q là 2 biến logic mệnh đề, khi đó câu ￢(p => q) có giá trị đúng khi nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3561,7 +3417,6 @@ const QUESTIONS = [
   {
     "chapter": "Chương 8-10",
     "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau tương đương với câu ￢(p ∧ q) ?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3571,7 +3426,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "￢p ∨ ￢q",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -3584,12 +3439,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Giả sử p và q là 2 biến logic mệnh đề, khi đó câu p => q có giá trị sai khi nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3617,12 +3471,11 @@ const QUESTIONS = [
   {
     "chapter": "Chương 8-10",
     "question": "Giả sử p, q và s là các biến mệnh đề, câu nào trong các câu sau tương đương với câu p => (q ∨ s) ?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "￢p ∨ q ∨ s",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -3640,12 +3493,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau là không thõa mãn được (unsatisfiable)?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3665,15 +3517,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "p ∧ ￢p",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho sơ sở tri thức KB = {p ∨ q; ￢q ∨ r}, trong đó p, q và r là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3683,7 +3534,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "p ∨ r",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -3696,12 +3547,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho p, q và r là các biến mệnh đề, mệnh đề nào sau đây là mệnh đề xác định?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3721,15 +3571,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "p ∨ ￢q ∨ ￢r",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau tương đương với câu (p => q) ?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3749,20 +3598,19 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "￢p ∨ q",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau tương đương với câu (p => q) ?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "￢q => ￢p",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -3780,17 +3628,16 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Giả sử có ký hiệu các mệnh đề: p = \" We will go swimming\" và q = \"We will take a canoe trip\". Khi đó câu \"If we do not go swimming then we will take a canoe trip.\" được biểu diễn như thế nào ?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "￢p => q",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -3808,12 +3655,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho sơ sở tri thức KB = {p ∧ q; q => (s ∨ t); s => r; ￢t}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3833,20 +3679,19 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "r",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho sơ sở tri thức KB = {p ∧ q; p => (r ∧ s); r => t}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau cho giá trị là false?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "￢p ∨ ￢q",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -3864,17 +3709,16 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho sơ sở tri thức KB = {p ∧ q; p => r; (q ∨ r) => s}, trong đó p, q, r và s là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "s",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -3892,12 +3736,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Ký hiệu M(r) là tập tất cả các mô hình của câu: r = p ∧ q với p và q là 2 biến logic mệnh đề. Khi đó:",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3912,7 +3755,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "M(r) = {(p = true, q = true)}",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -3920,17 +3763,16 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Một cơ sở tri thức của một tác tử logic được định nghĩa là:",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "Một tập các câu trong một ngôn ngữ hình thức.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -3948,17 +3790,16 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Câu trả lời nào sau đây là SAI?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "Dữ liệu cho các thuật toán học máy là các véc-tơ đặc trưng của các mẫu dữ liệu. b. Các thuật toán học máy yêu cầu biết trước mô hình của dữ liệu.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -3971,12 +3812,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho tập dữ liệu D = {(x ,y ), 1≤ i ≤ n}, trong đó x là véc-tơ dữ liệu vào (input) và y là dữ liệu ra (output). Bài toán phân lớp yêu cầu:",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -3986,7 +3826,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "Dữ liệu ra y là rời rạc",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -3999,12 +3839,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Gán nhãn dữ liệu huấn luyện là một yêu cầu của loại học máy nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -4014,7 +3853,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "Học có giám sát hay có hướng dẫn",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -4027,12 +3866,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Loại học máy nào yêu cầu cần phải biết dữ liệu đầu vào và dữ liệu đầu ra?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -4047,7 +3885,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Học có hướng dẫn",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -4055,17 +3893,16 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Học máy là một lĩnh vực con của lĩnh vực nghiên cứu nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "Trí tuệ nhân tạo",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -4083,12 +3920,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho tập dữ liệu D = {(x ,y ), 1≤ i ≤ n}, trong đó x là véc-tơ dữ liệu vào (input) và y là dữ liệu ra (output). Bài toán hồi quy yêu cầu:",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -4103,7 +3939,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Dữ liệu ra y là liên tục",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -4111,12 +3947,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Loại học máy nào tìm mối quan hệ của các mẫu khi tập dữ liệu không biết đầu ra?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -4136,20 +3971,19 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "Học không có hướng dẫn",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Thứ tự các bước thực hiện cơ bản của một hệ thống nhận dạng ảnh vân tay sẽ như thế nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "Tiền xử lý -> trích chọn đặc trưng -> nhận dạng.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -4167,12 +4001,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Các thuật toán học máy xây dựng mô hình dữ liệu dựa trên tập dữ liệu nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -4182,7 +4015,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "Tập dữ liệu huấn luyện (training data)",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -4195,17 +4028,16 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Quá trình các thuật toán học máy xây dựng mô hình dựa trên các mẫu dữ liệu gọi là gì?",
-    "images": [],
     "options": [
       {
         "letter": "a",
         "text": "Huấn luyện (training)",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "b",
@@ -4223,12 +4055,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Thứ tự các bước cơ bản để xây dựng một hệ thống nhận dạng ảnh vân tay sẽ như thế nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -4243,7 +4074,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Thu thập dữ liệu -> trích chọn đặc trưng -> huấn luyện -> nhận dạng.",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -4251,14 +4082,11 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [-1,1]T thì đầu ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
-    "images": [
-      "ch810_001.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -4268,7 +4096,7 @@ const QUESTIONS = [
       {
         "letter": "b",
         "text": "a = [1,0]T",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -4281,15 +4109,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b",
-    "image": "assets/img_59.png"
+    "correct": null,
+    "images": [
+      "assets/img_54.png"
+    ]
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [-1,1] thì đầu ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
-    "images": [
-      "ch810_002.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -4304,7 +4131,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "a = [0,1]T",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -4312,14 +4139,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_55.png"
+    ]
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [1,1] thì đầu+ ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
-    "images": [
-      "ch810_003.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -4334,7 +4161,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "a = [1,0]T",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -4342,14 +4169,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_56.png"
+    ]
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [1,1] thì đầu ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
-    "images": [
-      "ch810_004.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -4364,7 +4191,7 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "a = [1,1]T",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
@@ -4372,12 +4199,14 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": null,
+    "images": [
+      "assets/img_57.png"
+    ]
   },
   {
     "chapter": "Chương 8-10",
     "question": "Thứ tự các bước thực hiện cơ bản của một hệ thống nhận dạng ảnh biển số Ôtô sẽ như thế nào?",
-    "images": [],
     "options": [
       {
         "letter": "a",
@@ -4397,15 +4226,14 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "Tiền xử lý -> phân đoạn -> trích chọn đặc trưng -> nhận dạng.",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Bao nhiêu dòng xuất hiện trong bảng chân lý để xác định giá trị của câu: (p ∧ q) => (p ∨ q)?\na. 8",
-    "images": [],
     "options": [
       {
         "letter": "b",
@@ -4415,17 +4243,38 @@ const QUESTIONS = [
       {
         "letter": "d",
         "text": "4",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": null
+  },
+  {
+    "chapter": "Chương 8-10",
+    "question": "Bài toán hồi quy là bài toán thuộc loại học máy nào?\na. Học bán giám sát\nb. Học có giám sát hay có hướng dẫn",
+    "options": [
+      {
+        "letter": "c",
+        "text": "Học tăng cường",
+        "correct": false
+      }
+    ],
+    "correct": null
+  },
+  {
+    "chapter": "Chương 8-10",
+    "question": "Cho sơ sở tri thức KB = {p ∧ q; p => r; r => ￢s ∨ t; ￢q ∨ s}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "t",
+        "correct": false
+      }
+    ],
+    "correct": null
   },
   {
     "chapter": "Chương 8-10",
     "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [1,-1] thì đầu ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
-    "images": [
-      "ch810_005.png"
-    ],
     "options": [
       {
         "letter": "a",
@@ -4448,6 +4297,9 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": null
+    "correct": null,
+    "images": [
+      "assets/img_58.png"
+    ]
   }
 ];
