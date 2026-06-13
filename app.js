@@ -17,6 +17,7 @@ const CHAPTERS_META = {
   'Chương 1-4 (Ôn tập)': { icon: '📚', name: 'Chương 1–4: Ôn Tập' },
   'Chương 5-7':          { icon: '⭐', name: 'Chương 5–7: Tìm Kiếm Heuristic & Cục Bộ' },
   'Chương 8-10':         { icon: '🧩', name: 'Chương 8–10: Logic & Ràng Buộc' },
+  'Trắc nghiệm tổng hợp':{ icon: '🔥', name: 'Trắc nghiệm tổng hợp' },
 };
 
 // ===== INIT =====
