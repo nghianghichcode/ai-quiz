@@ -115,6 +115,14 @@ function startFullExam() {
   initQuiz();
 }
 
+function startMockExam() {
+  STATE.mode = 'exam';
+  STATE.chapter = 'Trắc nghiệm tổng hợp';
+  const mockQs = QUESTIONS.filter(q => q.chapter === 'Trắc nghiệm tổng hợp');
+  STATE.questions = shuffle([...mockQs]); // Take all questions from the new chapter
+  initQuiz();
+}
+
 function initQuiz() {
   STATE.currentIdx = 0;
   STATE.answers = {};
@@ -449,6 +457,7 @@ function shuffle(arr) {
 // expose for HTML inline handlers
 window.showPage = showPage;
 window.startFullExam = startFullExam;
+window.startMockExam = startMockExam;
 window.navigate = navigate;
 window.toggleFlag = toggleFlag;
 window.finishQuiz = finishQuiz;
