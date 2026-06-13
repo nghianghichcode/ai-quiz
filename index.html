@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Quiz — Trí Tuệ Nhân Tạo | Ôn Thi Cuối Kỳ</title>
+  <meta name="description" content="Website ôn thi trắc nghiệm môn Trí Tuệ Nhân Tạo – cuối kỳ. Gồm các câu hỏi về tác tử, tìm kiếm, A*, logic mệnh đề và ràng buộc." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== BACKGROUND PARTICLES ===== -->
+<div class="bg-glow"></div>
+<canvas id="particles-canvas"></canvas>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="logo">
+      <span class="logo-icon">🧠</span>
+      <span class="logo-text">AI<span class="logo-accent">Quiz</span></span>
+    </div>
+    <nav class="header-nav">
+      <button id="btn-home" class="nav-btn active">Trang chủ</button>
+      <button id="btn-practice" class="nav-btn">Luyện tập</button>
+      <button id="btn-exam" class="nav-btn">Thi thử</button>
+      <button id="btn-review" class="nav-btn">Xem đáp án</button>
+    </nav>
+    <div class="header-right">
+      <div class="progress-badge" id="global-progress" style="display:none">
+        <span id="badge-score">0</span>/<span id="badge-total">0</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HOME PAGE ===== -->
+<main id="page-home" class="page active">
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Trí Tuệ Nhân Tạo — Cuối Kỳ 2</div>
+      <h1 class="hero-title">Ôn Thi Trắc Nghiệm<br /><span class="gradient-text">Thông Minh</span></h1>
+      <p class="hero-desc">Bộ câu hỏi trắc nghiệm đầy đủ từ các chương Tác Tử, Tìm Kiếm, A*, Giải thuật di truyền, Logic Mệnh Đề và CSP. Luyện tập theo chương hoặc thi thử toàn bộ.</p>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-num" id="stat-total">—</div>
+          <div class="stat-label">Câu hỏi</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">5</div>
+          <div class="stat-label">Chương</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" id="stat-answered">0</div>
+          <div class="stat-label">Đã trả lời</div>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="showPage('practice')">
+          <span>⚡</span> Luyện Tập Theo Chương
+        </button>
+        <button class="btn-secondary" onclick="startFullExam()">
+          <span>🎯</span> Thi Thử Toàn Bộ
+        </button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="brain-orb">
+        <div class="orb-ring r1"></div>
+        <div class="orb-ring r2"></div>
+        <div class="orb-ring r3"></div>
+        <div class="orb-core">🤖</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chapters -->
+  <section class="chapters-section">
+    <h2 class="section-title">Chọn Chương Ôn Tập</h2>
+    <div class="chapters-grid" id="chapters-grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- Recent scores -->
+  <section class="scores-section" id="scores-section" style="display:none">
+    <h2 class="section-title">Kết Quả Gần Đây</h2>
+    <div id="recent-scores"></div>
+  </section>
+</main>
+
+<!-- ===== PRACTICE / EXAM PAGE ===== -->
+<main id="page-quiz" class="page">
+  <div class="quiz-layout">
+    <!-- Sidebar -->
+    <aside class="quiz-sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-title" id="sidebar-title">Luyện Tập</div>
+        <div class="sidebar-chapter" id="sidebar-chapter"></div>
+      </div>
+      <div class="quiz-progress-bar">
+        <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+      </div>
+      <div class="sidebar-stats">
+        <div class="ss-item correct">
+          <span class="ss-icon">✓</span>
+          <span class="ss-count" id="count-correct">0</span>
+          <span class="ss-label">Đúng</span>
+        </div>
+        <div class="ss-item wrong">
+          <span class="ss-icon">✗</span>
+          <span class="ss-count" id="count-wrong">0</span>
+          <span class="ss-label">Sai</span>
+        </div>
+        <div class="ss-item skip">
+          <span class="ss-icon">—</span>
+          <span class="ss-count" id="count-skip">0</span>
+          <span class="ss-label">Chưa làm</span>
+        </div>
+      </div>
+      <div class="question-grid" id="question-grid">
+        <!-- question numbers -->
+      </div>
+      <button class="btn-finish" id="btn-finish" onclick="finishQuiz()">Nộp Bài</button>
+    </aside>
+
+    <!-- Main quiz area -->
+    <div class="quiz-main">
+      <!-- Question -->
+      <div class="question-card" id="question-card">
+        <div class="q-header">
+          <span class="q-number" id="q-number">Câu 1</span>
+          <span class="q-chapter-tag" id="q-chapter-tag"></span>
+          <button class="q-flag-btn" id="q-flag-btn" onclick="toggleFlag()" title="Đánh dấu câu này">🚩</button>
+        </div>
+        <div class="q-text" id="q-text"></div>
+        <div class="q-image" id="q-image-container" style="display:none; text-align: center; margin-bottom: 20px;">
+          <img id="q-image" src="" alt="Question Image" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border);" />
+        </div>
+        <div class="q-options" id="q-options">
+          <!-- options -->
+        </div>
+        <div class="q-explanation" id="q-explanation" style="display:none">
+          <div class="exp-label">📌 Giải thích</div>
+          <div class="exp-text" id="exp-text"></div>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="quiz-nav">
+        <button class="nav-arrow" id="btn-prev" onclick="navigate(-1)">← Câu trước</button>
+        <div class="nav-center">
+          <span id="nav-current">1</span> / <span id="nav-total">1</span>
+        </div>
+        <button class="nav-arrow" id="btn-next" onclick="navigate(1)">Câu sau →</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ===== REVIEW PAGE ===== -->
+<main id="page-review" class="page">
+  <div class="review-container">
+    <div class="review-header">
+      <h2>📋 Xem Đáp Án — Tất Cả Câu Hỏi</h2>
+      <div class="review-filters">
+        <select id="review-chapter-filter" onchange="filterReview()">
+          <option value="">Tất cả chương</option>
+        </select>
+        <select id="review-status-filter" onchange="filterReview()">
+          <option value="">Tất cả trạng thái</option>
+          <option value="correct">Trả lời đúng</option>
+          <option value="wrong">Trả lời sai</option>
+          <option value="unanswered">Chưa trả lời</option>
+        </select>
+        <input type="text" id="review-search" placeholder="🔍 Tìm câu hỏi..." oninput="filterReview()" />
+      </div>
+    </div>
+    <div class="review-list" id="review-list">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+</main>
+
+<!-- ===== RESULT PAGE ===== -->
+<main id="page-result" class="page">
+  <div class="result-container">
+    <div class="result-card">
+      <div class="result-emoji" id="result-emoji">🎉</div>
+      <h2 class="result-title" id="result-title">Hoàn thành!</h2>
+      <div class="result-score-ring">
+        <svg viewBox="0 0 120 120" class="score-svg">
+          <circle cx="60" cy="60" r="54" class="ring-bg" />
+          <circle cx="60" cy="60" r="54" class="ring-fill" id="score-ring" />
+        </svg>
+        <div class="score-text">
+          <div class="score-pct" id="result-pct">0%</div>
+          <div class="score-sub" id="result-sub">0/0</div>
+        </div>
+      </div>
+      <div class="result-breakdown">
+        <div class="rb-item correct">
+          <span>✓ Đúng</span>
+          <strong id="res-correct">0</strong>
+        </div>
+        <div class="rb-item wrong">
+          <span>✗ Sai</span>
+          <strong id="res-wrong">0</strong>
+        </div>
+        <div class="rb-item skip">
+          <span>— Bỏ qua</span>
+          <strong id="res-skip">0</strong>
+        </div>
+      </div>
+      <div class="result-message" id="result-message"></div>
+      <div class="result-actions">
+        <button class="btn-primary" onclick="reviewAfterExam()">📋 Xem Đáp Án</button>
+        <button class="btn-secondary" onclick="restartQuiz()">🔄 Làm Lại</button>
+        <button class="btn-ghost" onclick="showPage('home')">🏠 Trang Chủ</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="questions.js"></script>
+<script src="app.js"></script>
+<script>
+// Particles
+(function() {
+  const canvas = document.getElementById('particles-canvas');
+  const ctx = canvas.getContext('2d');
+  let particles = [];
+  
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize);
+  
+  for (let i = 0; i < 60; i++) {
+    particles.push({
+      x: Math.random() * window.innerWidth,
+      y: Math.random() * window.innerHeight,
+      vx: (Math.random() - 0.5) * 0.4,
+      vy: (Math.random() - 0.5) * 0.4,
+      r: Math.random() * 2 + 0.5,
+      alpha: Math.random() * 0.5 + 0.1
+    });
+  }
+  
+  function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach(p => {
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.x < 0) p.x = canvas.width;
+      if (p.x > canvas.width) p.x = 0;
+      if (p.y < 0) p.y = canvas.height;
+      if (p.y > canvas.height) p.y = 0;
+      
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(139,92,246,${p.alpha})`;
+      ctx.fill();
+    });
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+</script>
+</body>
+</html>
