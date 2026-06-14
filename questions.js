@@ -4466,33 +4466,6 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Giả sử b là nhân tố nhánh, m là độ sâu và d là độ sâu tìm được nghiệm của cây tìm kiếm, độ phức tạp thời gian và độ phức tạp tính toán của thuật toán tìm kiếm theo chiều rộng là bao nhiêu?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "O(bd) và O(b )",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "O(bm) và O(bm)",
-        "correct": true
-      },
-      {
-        "letter": "c",
-        "text": "O(d ) và O(d )",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "O(b ) và O(bd)",
-        "correct": false
-      }
-    ],
-    "correct": "b"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
     "question": "Tác tử phản xạ đơn (simple reflex agents) chọn hành động để thưc hiện dựa trên yếu tố nào?",
     "options": [
       {
@@ -5051,36 +5024,6 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Nếu áp dụng giải thuật UCS để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau, đường đi tìm được là đường nào và có giá thành là bao nhiêu?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "S – A – C – D – G: g(G) = 9",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "S – D – G : g(G) = 8",
-        "correct": true
-      },
-      {
-        "letter": "c",
-        "text": "S – D – G : g(G) = 7",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "Không áp dụng được thuật toán UCS cho đồ thị có hướng.",
-        "correct": false
-      }
-    ],
-    "correct": "b",
-    "images": [
-      "assets/img_65.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
     "question": "Nếu áp dụng thuật toán GRAPH-SEARCH với cấu trúc \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì độ sâu tìm thấy nghiệm của cây tìm kiếm là bao nhiêu?",
     "options": [
       {
@@ -5221,36 +5164,6 @@ const QUESTIONS = [
     "correct": "a",
     "images": [
       "assets/img_68.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Nếu áp dụng thuật toán TREE-SEARCH với cấu trúc \"frontier\" trong thuật toán là FIFO để tìm đường đi từ đỉnh S đến đỉnh G cho đồ thị sau thì đường đi tìm được là gì?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "S – B - E – I – G",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "S – A – C – F – G",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "S – B – E – K - G",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "S – D – F – G",
-        "correct": true
-      }
-    ],
-    "correct": "d",
-    "images": [
-      "assets/img_69.png"
     ]
   },
   {
@@ -5570,36 +5483,6 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho bài toán tô màu có bản đồ được biểu diễn bằng đồ thị sau, trong đó đỉnh V1 có miền giá trị D1, đỉnh V2 có miền giá trị D2 và đỉnh V3 có miền giá trị D3. Thuật toán AC3 sẽ cho kết quả tô màu như thế nào?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "V1 = {B}, V2 = {R}, V3 = {G}",
-        "correct": true
-      },
-      {
-        "letter": "b",
-        "text": "V1 = {G}, V2 = {G}, V3 = {G}",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "Không tìm được nghiệm",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "V1 = {R}, V2 = {R}, V3 = {G}",
-        "correct": false
-      }
-    ],
-    "correct": "a",
-    "images": [
-      "assets/img_76.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
     "question": "Khái niệm nào sau đây KHÔNG được sử dụng trong giải thuật di truyền?",
     "options": [
       {
@@ -5680,36 +5563,6 @@ const QUESTIONS = [
     "correct": "a",
     "images": [
       "assets/img_77.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Giải thuật A* không tìm được đường đi ngắn nhất từ đỉnh S đến đỉnh G vì sao?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Đỉnh D vi phạm tính đồng nhất",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "Đỉnh C vi phạm tính đồng nhất",
-        "correct": true
-      },
-      {
-        "letter": "c",
-        "text": "Đỉnh E vi phạm tính đồng nhất",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "Đỉnh A vi phạm tính đồng nhất",
-        "correct": false
-      }
-    ],
-    "correct": "b",
-    "images": [
-      "assets/img_78.png"
     ]
   },
   {
@@ -5831,36 +5684,6 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho bài toán tô màu có bản đồ được biểu diễn bằng đồ thị sau, trong đó đỉnh V1 có miền giá trị D1, đỉnh V2 có miền giá trị D2 và đỉnh V3 có miền giá trị D3. Để đạt được thõa mãn ràng buộc trên cạnh V1-V2, cần xóa giá trị nào?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Xóa B trong miền D1",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "Xóa R trong miền D2",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "Xóa G trong miền D1",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "Xóa R trong miền D1",
-        "correct": true
-      }
-    ],
-    "correct": "d",
-    "images": [
-      "assets/img_82.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
     "question": "Cho bài toán tô màu bản đồ như sau, trong đó vùng Vi có miền giá trị Di (i = 1,2,..6). Nếu áp dụng thuật toán tìm kiếm quay lui kết hợp kiểm tra tiến với thứ tự động thì vùng nào được chọn làm vùng bắt đầu?",
     "options": [
       {
@@ -5918,66 +5741,6 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Hàm heuristic của đỉnh nào vi phạm tính chấp nhận được?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "C",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "A",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "B",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "D",
-        "correct": true
-      }
-    ],
-    "correct": "d",
-    "images": [
-      "assets/img_84.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Nếu áp dụng giải thuật A* để tìm đường đi từ đỉnh S đến đỉnh G, hàm đánh giá f(C) bằng bao nhiêu?  6+1 + 4(đỉnh c) vì lấy trọng số gn nhỏ nhất",
-    "options": [
-      {
-        "letter": "a",
-        "text": "f(C) = 7",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "f(C) = 13",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "f(C) = 4",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "f(C) = 11",
-        "correct": true
-      }
-    ],
-    "correct": "d",
-    "images": [
-      "assets/img_85.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
     "question": "Để tìm đường đi ngắn nhất từ đỉnh S đến đỉnh G của một đồ thị, nếu cây tìm kiếm của thuật toán leo đồi được xây dựng như sau, trong đó ký hiệu h là hàm heuristic ước lượng khoảng cách đến đích thì nút nào của cây bị SAI?",
     "options": [
       {
@@ -5994,36 +5757,6 @@ const QUESTIONS = [
     "correct": "b",
     "images": [
       "assets/img_86.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Thuật toán tìm kiếm tham lam (greedy search) tìm được đường đi nào để đi từ đỉnh S đến đỉnh G?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "S – A – D - G",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "S – A – C - G",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "S – D - G",
-        "correct": true
-      },
-      {
-        "letter": "d",
-        "text": "S – B – G",
-        "correct": false
-      }
-    ],
-    "correct": "c",
-    "images": [
-      "assets/img_87.png"
     ]
   },
   {
@@ -6112,93 +5845,6 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho bài toán thõa mãn ràng buộc (X,D,C), trong đó X = {x1, x2, x3}, D = {D1, D2, D3} với D1 = {2,4,5,6}, D2 = {3,5,6,8}, D3 = {2,5,6,7} và C = {x1 = x2, x2 = x3}. Để đạt được thõa mãn ràng buộc trên cạnh x1-x21 cần xóa các giá trị nào?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Xóa {2,4} trong D1.",
-        "correct": true
-      },
-      {
-        "letter": "b",
-        "text": "Xóa {3,8} trong D2.",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "Xóa {5,6} trong D1.",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "Xóa {2} trong D1.",
-        "correct": false
-      }
-    ],
-    "correct": "a"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho bài toán tô màu bản đồ như sau, trong đó vùng Vi có miền giá trị Di (i = 1, 2, 3,4). Nếu áp dụng thuật toán tìm kiếm quay lui kết hợp với kiểm tra tiến với V2 được gán là {R} thì các miền còn lại có giá trị như thế nào? V1= gb, v2=g, v3=r v4=b xét chưa đủ",
-    "options": [
-      {
-        "letter": "a",
-        "text": "D1 = {R,G,B}, D3 = {R,G}, D4 = {G,B}",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "D1 = {G}, D3 = {G}, D4 = {G,B}",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "D1 = {B}, D3 = {G}, D4 = {G,B}",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "D1 = {G,B}, D3 = {G}, D4 = {G,B}",
-        "correct": true
-      }
-    ],
-    "correct": "d",
-    "images": [
-      "assets/img_89.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Nếu áp dụng giải thuật A* để tìm đường đi từ đỉnh S đến đỉnh G, hàm đánh giá f(E) bằng bao nhiêu? 6+7+ 4 = 17(sbe)",
-    "options": [
-      {
-        "letter": "a",
-        "text": "f(E) = 17",
-        "correct": true
-      },
-      {
-        "letter": "b",
-        "text": "f(E) = 18",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "f(E) = 14",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "f(E) = 13",
-        "correct": false
-      }
-    ],
-    "correct": "a",
-    "images": [
-      "assets/img_90.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
     "question": "Thuật toán nào trong các thuật toán sau đây KHÔNG phải là thuật toán tìm kiếm cục bộ?",
     "options": [
       {
@@ -6253,66 +5899,6 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Hàm heuristic của đỉnh nào vi phạm tính đồng nhất?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "A",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "B vì B>7",
-        "correct": true
-      },
-      {
-        "letter": "c",
-        "text": "D",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "C",
-        "correct": false
-      }
-    ],
-    "correct": "b",
-    "images": [
-      "assets/img_91.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Để tìm đường đi ngắn nhất từ đỉnh S đến đỉnh G của một đồ thị, nếu cây tìm kiếm của thuật toán tìm kiếm Beam với k =2 được xây dựng như sau, trong đó ký hiệu h là hàm heuristic ước lượng khoảng cách đến đích thì những nút nào tiếp theo của cây sẽ được chọn để mở rộng cây? ???",
-    "options": [
-      {
-        "letter": "a",
-        "text": "{C,H}",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "{C,E}",
-        "correct": true
-      },
-      {
-        "letter": "c",
-        "text": "{F,H}",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "{E,F}",
-        "correct": false
-      }
-    ],
-    "correct": "b",
-    "images": [
-      "assets/img_92.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
     "question": "Trong giải thuật di truyền, giả sử có 2 cá thể với gen được biểu diễn bởi dãy bit nhị phân như sau: x = 10011, y = 01010. Nếu lai ghép cá thể x và y với điểm cắt c = 2, thì giải thuật sinh ra một cá thể con z có gen như thế nào? 10+ 010",
     "options": [
       {
@@ -6337,36 +5923,6 @@ const QUESTIONS = [
       }
     ],
     "correct": "a"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Nếu áp dụng thuật toán leo đồi cho hàm số với đồ thị sau, phát biểu nào sau đây là đúng?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Thuật toán tìm được giá trị của hàm f(x) phụ thuộc vào điểm xuất phát.",
-        "correct": true
-      },
-      {
-        "letter": "b",
-        "text": "Thuật toán luôn tìm được giá trị lớn nhất của hàm f(x) tại đỉnh A.",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "Thuật toán chỉ tìm được giá trị hàm f(x) tại đỉnh B.",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "Thuật toán chỉ tìm được giá trị hàm f(x) tại đỉnh C.",
-        "correct": false
-      }
-    ],
-    "correct": "a",
-    "images": [
-      "assets/img_93.png"
-    ]
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
@@ -6400,36 +5956,6 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Ở vòng lặp thứ 2, cấu trúc \"frontier\" của thuật toán A* gồm những đỉnh nào?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "{(A,14),(B,15),(C,11),(G,12)}",
-        "correct": true
-      },
-      {
-        "letter": "b",
-        "text": "{(A,14),(B,15),(D,12)}  thiếu GC",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "{(B,15),(C,14),(D,12)}  thiếu G",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "{(A,14),(D,12),(G,15)} thiếu C",
-        "correct": false
-      }
-    ],
-    "correct": "a",
-    "images": [
-      "assets/img_95.png"
-    ]
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
     "question": "Trong mỗi vòng lặp của thuật toán min-conflicts, một biến được chọn là:",
     "options": [
       {
@@ -6454,33 +5980,6 @@ const QUESTIONS = [
       }
     ],
     "correct": "c"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho bài toán thõa mãn ràng buộc (X,D,C), trong đó X = {x1, x2, x3}, D = {D1, D2, D3} với D1 = {2,4,5,7}, D2 = {3,5,6,8}, D3 = {1,5,6,7} và C = {x1 = x2, x2 = x3}. Để đạt được thõa mãn ràng buộc trên cạnh x1-x3, cần xóa các giá trị nào?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Xóa {5,7} trong D1.",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "Xóa {2} trong D1.",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "Xóa {1,6} trong D3.",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "Xóa {2,4} trong D1.",
-        "correct": true
-      }
-    ],
-    "correct": "d"
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
@@ -6511,62 +6010,986 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Ở vòng lặp thứ 2, cấu trúc \"explored\" của thuật toán A* gồm những đỉnh nào? Tổng chi phí thấp nhất gn+hn =",
+    "question": "Giả sử p và q là 2 biến logic mệnh đề, khi đó câu ¬(p ⇒ q) có giá trị đúng khi nào?",
     "options": [
       {
         "letter": "a",
-        "text": "{S,A,B}",
+        "text": "p=true, q= true",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "{S,A}",
+        "text": "p = false, q = false",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "{S,D}",
-        "correct": true
+        "text": "p= false, q = true",
+        "correct": false
       },
       {
         "letter": "d",
-        "text": "{S,B}",
-        "correct": false
+        "text": "p=true, q = false",
+        "correct": true
       }
     ],
-    "correct": "c",
-    "images": [
-      "assets/img_96.png"
-    ]
+    "correct": "d"
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho đồ thị sau với hàm đánh giá heuristic của các đỉnh đến đỉnh G được ghi trên các đỉnh và giá để di chuyển giữa 2 đỉnh được ghi trên các cạnh. Thuật toán tìm kiếm leo đồi (hill-climbing) tìm được đường đi nào từ đỉnh S đến đỉnh G?",
+    "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau tương đương với câu ¬(p ^ q)?",
     "options": [
       {
         "letter": "a",
-        "text": "S – B – C - E - G",
+        "text": "p⇒q",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "S – A – D - G",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "S – A – C – E - G",
+        "text": "¬p ∨ ¬q .¬p ∧ ¬q",
         "correct": true
       },
       {
         "letter": "d",
-        "text": "S – B – E – G",
+        "text": "¬pVq",
         "correct": false
       }
     ],
-    "correct": "c",
-    "images": [
-      "assets/img_97.png"
-    ]
+    "correct": "b"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Giả sử p và q là 2 biến logic mệnh đề, khi đó câu p ⇒ q có giá trị sai khi nào?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "p=true, q= true",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "p = false, q = true",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "p= false, q = false",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "p=true, q = false",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Giả sử p, q và s là các biến mệnh đề, câu nào trong các câu sau tương đương với câu p ⇒ (qv s) ?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "¬pvqvs",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "“p ∧qws",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "¬pVqAs",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "pvqvs",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau là không thõa mãn được (unsatisfiable)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "pvq",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "p ∧q",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "p¬q",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "p ∧¬p",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho cơ sở tri thức KB = {p ∨ q; ¬q ∨ r}, trong đó p, q và r là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "options": [
+      {
+        "letter": "c",
+        "text": "ho cơ sở tri thức KB = {p ∨ q; ¬q ∨ 1}, trong đó p, q var là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "¬pV ¬r",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "pvr",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "p ∧¬r",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho p, q và r là các biến mệnh đề, mệnh đề nào sau đây là mệnh đề xác định?",
+    "options": [
+      {
+        "letter": "c",
+        "text": "hop, q và r là các biến mệnh đề, mệnh đề nào sau đây là mệnh đề xác định?",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "pvqvr",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "pvqv¬r",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "pv¬qv¬r",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Giả sử có ký hiệu các mệnh đề: p = \" We will go swimming’ và q = \"We will take a canoe trip\". Khi đó câu \"If we do not go swimming then we will take a canoe trip.\" được biểu diễn như thế nào ?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "¬p⇒q",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "“q⇒p",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "q⇒p",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "p¬q",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho cơ sở tri thức KB = {p ∧ q; q ⇒ (s ∨ t); s ⇒ r; ¬t}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "options": [
+      {
+        "letter": "c",
+        "text": "ho cơ sở tri thức KB = {p ∧ q; q ⇒ (s vt); s ⇒ r; 1}, trong đó p, q, r, s va t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "¬s",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "T cor Dr",
+        "correct": false
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho cơ sở tri thức KB = {p ∧ q; p ⇒ (r ∧ s); r ⇒ t}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau cho giá trị là false?",
+    "options": [
+      {
+        "letter": "c",
+        "text": "ho cơ sở tri thức KB = {p Aq; p ⇒ (r ∧ s); r ⇒ tỳ, trong đó p, q, r, s và t là các biển mệnh đề. Câu nào trong các câu sau cho giá trị là false?",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "¬pwV ¬q",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "rv¬s",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "¬swt",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho cơ sở tri thức KB = {p ∧ q; p ⇒ r; (q ∨ r) ⇒ s}, trong đó p, q, r và s là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "options": [
+      {
+        "letter": "c",
+        "text": "ho cơ sở tri thức KB = {p ∧ q;p ⇒; (q Vr) ⇒ $}, trong đó p, q, r và s là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "s",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Tr",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "¬s",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Ký hiệu M(r) là tập tất cả các mô hình của câu: r = p Aq với p và q là 2 biến logic mệnh đề. Khi đó:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Mr) = {(p = true, q = false)}",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "M(r) = {(p = false, q = true)}",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "M(r) = {(p = true, q = true)}",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "M(r) = {(p = false, q = false)}",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Một cơ sở tri thức của một tác tử logic được định nghĩa là:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Một tập các câu trong một ngôn ngữ hình thức.",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Một tập các ký hiệu trong một ngôn ngữ hình thức.",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Một văn bản.",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Một tập các số nguyên.",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Phát biểu nào sau đây về học máy là SAI?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Dữ liệu cho các thuật toán học máy là các véc¬tơ đặc trưng của các mẫu dữ liệu.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Các thuật toán học máy yêu cầu biết trước mô hình của dữ liệu.",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Các phương pháp đánh giá mô hình học máy yêu cầu chia tập dữ liệu thành tập dữ liệu huấn luyện (training data) và tập dữ liệu đánh giá (validation data)",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Dữ liệu huấn luyện cho các thuật toán học máy cần phải tiền xử lý.",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho tập dữ liệu D = {(xᵢ, yᵢ), 1 ≤ i ≤ n}, trong đó xᵢ là véc-tơ dữ liệu vào (input) và yᵢ là dữ liệu ra (output). Bài toán phân lớp yêu cầu:",
+    "options": [
+      {
+        "letter": "c",
+        "text": "ho tập dữ liệu D = {(x ,y), 1< i < nỳ, trong đó x là véc¬to dữ liệu vào (input) và y là dữ liệu ra (output). Bài toán phân lớp yêu cầu:",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "Dữ liệu ra y có thể là liên tục hoặc rời rạc",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Dữ liệu ra y là rời rạc",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Dữ liệu ra y là liên tục",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Gán nhãn dữ liệu huấn luyện là một yêu cầu của loại học máy nào?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Học tăng cường",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Học có giám sát hay có hướng dẫn",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Học không có giám sát hay không có hướng dẫn",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Học bán giám sát",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Loại học máy nào yêu cầu cần phải biết dữ liệu đầu vào và dữ liệu đầu ra?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Học tăng cường",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Học không có hướng dẫn",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Học có hướng dẫn",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Suy diễn logic",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Hoc máy là một lĩnh vực con của lĩnh vực nghiên cứu nào?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Trí tuệ nhân tạo",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Học sâu",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Nhận dạng mẫu",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Suy diễn logic",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Loại hoc máy nào tim mối quan hệ của các mẫu khi tập dữ liệu không biết dau ra?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Suy diễn logic",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Học tăng cường",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Học có hướng dẫn",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Học không có hướng dẫn",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Thứ tự các bước thực hiện cơ bản của một hệ thống nhận dang ảnh vân tay sẽ như thế nào?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Tiền xử lý ¬ trích chọn đặc trưng ¬ nhận dạng.",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Nhận dạng ¬› trích chọn đặc trưng ¬ tiền xử lý",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Trích chọn đặc trưng ¬> tiền xử lý ¬ nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Tiền xử lý ¬ nhận dạng ¬› trích chọn đặc trưng",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Các thuật toán học máy xây dựng mô hình dữ liệu dựa trên tập dữ liệu nào?",
+    "options": [
+      {
+        "letter": "c",
+        "text": "ác thuật toán học máy xây dựng mô hình dữ liệu dựa trên tập dữ liệu nào?",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "Tập dữ liệu đánh giá (validation data)",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Tập dữ liệu huấn luyện (training data)",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Không cần dữ liệu",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Quá trình các thuật toán học máy xây dung mô hình dựa trên các mẫu dữ liệu gọi là gì?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Huấn luyện (training)",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Kiểm tra (test) mô hình",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Tiền xử lý (preprocessing) dữ liệu",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Đánh giá (validation) mô hình",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Thứ tự các bước cơ bản để xây dựng một hệ thống nhận dạng ảnh vân tay sẽ như thế nào?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Thu thập dữ liệu ¬ huấn luyện ¬ trích chọn đặc trưng ¬› nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Thu thập dữ liệu ¬ nhận dạng ¬› huấn luyện ¬ trích chọn đặc trưng.",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Thu thập dữ liệu ¬ trích chọn đặc trưng ¬ huấn luyện ¬ nhận dạng.",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Thu thập dữ liệu ¬ huấn luyện ¬ nhận dạng ¬› trích chọn đặc trưng.",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Thứ tự các bước thực hiện co bản của một hệ thống nhận dạng ảnh biển số Ôtô sẽ như thế nào?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Tiền xử lý ¬ phân đoạn ¬ nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Tiền xử lý ¬ trích chọn đặc trưng ¬ phân đoạn ¬› nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Tiền xửlý ¬ trích chọn đặc trưng ¬ nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Tiền xử lý ¬ phân đoạn ¬> trích chọn đặc trưng ¬ nhận dạng.",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Bao nhiêu dòng xuất hiện trong bảng chân lý để xác định giá trị của câu: (p ∧ q) ⇒ (p ∨ q)?",
+    "options": [
+      {
+        "letter": "b",
+        "text": "ao nhiêu dòng xuất hiện trong bảng chân lý để xác định giá trị của câu: (p ∧ q) ⇒ (pv q)?",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "8",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "2 D4",
+        "correct": false
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Thứ tự các bước thực hiện cơ bản của một hệ thống nhận dạng ảnh mặt người sẽ thế thế nào?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Tiền xử lý ¬> phân đoạn ¬ trích chọn đặc trưng ¬ nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Tiền xử lý ¬ trích chọn đặc trưng ¬ phân đoạn ¬› nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Tiền xử lý ¬ phân đoạn ¬ nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Tiền xử lý ¬ trích chọn đặc trưng ¬ nhận dạng.",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Bài toán hồi quy là bài toán thuộc loại học máy nào?",
+    "options": [
+      {
+        "letter": "b",
+        "text": "ài toán hồi quy là bài toán thuộc loại học máy nào?",
+        "correct": true
+      },
+      {
+        "letter": "a",
+        "text": "Học bán giám sát",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Học tăng cường",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Học không có giám sát hay không có hướng dẫn",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho p, q, r và s là các biến mệnh đề, câu nào trong các câu sau KHÔNG phải là dạng chuẩn hội?",
+    "options": [
+      {
+        "letter": "c",
+        "text": "ho p, q,r và s là các biến mệnh đề, câu nào trong các câu sau KHNG phải là dang chuẩn hỏi?",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "(pvqA(¬rvs)",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "(pV q) A(rvs)",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "(p ∧q)v(TrAs)",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Giả sử s, t, p va q là các biến mệnh đề, câu nào trong các câu sau có giá trị là false?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "sv¬",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "¬s ∨ ¬t",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "¬pwq",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "¬rWs",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho cơ sở tri thức KB = {p ∧ q; p ⇒ r; r ⇒ ¬s ∨ t; ¬q ∨ s}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "options": [
+      {
+        "letter": "c",
+        "text": "ho cơ sở tri thức KB = {p Ag; p ⇒ r;r ⇒ ¬s vt; ¬q ∨ sỳ, trong đó p, q,r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+        "correct": false
+      },
+      {
+        "letter": "a",
+        "text": "t",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Tr ct",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "¬s",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho cơ sở tri thức KB = {p Aq; p ⇒ r; (q ∨ r) ⇒ s}, trong đó p, q, r và s là các biển mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "i a¬",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "¬p",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "¬",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "s",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho tập dữ liệu D = {(x;y), 1< 7< n}, trong đó x; là véc-tơ dữ liệu vào (input) và y; là dữ liệu ra (output). Mục tiêu của",
+    "options": [
+      {
+        "letter": "a",
+        "text": "fix=y",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "fixd<yi",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "0",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "w>y",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho cơ sở tri thức KB = {p ∨ q; ¬q Vr}, trong đó p, q và r là các biến mệnh đề. Câu nào trong các câu sau được suy Câu trỏ lời đã diễn từ KB?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "P a¬pVr",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "¬pV¬",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "epact",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "pwr",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho cơ sở tri thức KB = {p Aq; p ⇒ (r ∧ S); s ⇒ tỳ, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu eee sau có giá trị là false?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "¬pVq",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "¬V¬t",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "sv¬t",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "vs",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho mạng nơ-ron, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [1,-1]\" thì dau ra của mang a= Câu tr [oh đãi [a¡,ag]T bằng bao nhiêu? a, at điểm 250, pỚps. ; 4 |] a, Ÿ ostes a -1",
+    "options": [
+      {
+        "letter": "a",
+        "text": "a=fofT",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "a=nor",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "a=(oo",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "aa=nar",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho tập dữ liệu D = {(x;y)) 1< i < nỳ, trong đó x; là véc-tơ dữ liệu vào (input) và y là dữ liệu ra (output). Bài toán ner Saas aren phân lớp yêu cầu:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "V",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Không có ràng buộc dữ liệu ra yi",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Dữ liệu ray; là rời rạc",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Dữ liệu ray; có thế là liên tục hoặc rời rạc",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho tập dữ liệu D = (x,y), 1< / <n}, trong đó x; là véc-tơ dữ liệu vào (input) và y; là dữ liệu ra (output). Bài toán hồi Bi) rồi quy yêu câu:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Dữ liệu ra y, là liên tục",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Dữ liệu ray; là rời rạc",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "g Dữ liệu ra y¡ có thể là liên tục hoặc rời rạc",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Không có ràng buộc dữ liệu ra y¡",
+        "correct": false
+      }
+    ],
+    "correct": "a"
   }
 ];
