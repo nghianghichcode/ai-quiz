@@ -6730,7 +6730,10 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "images": [
+      "assets/img_135.png"
+    ]
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
@@ -6757,7 +6760,10 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "images": [
+      "assets/img_136.png"
+    ]
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
@@ -6784,7 +6790,10 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "images": [
+      "assets/img_137.png"
+    ]
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
@@ -6811,7 +6820,10 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "images": [
+      "assets/img_138.png"
+    ]
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
@@ -7054,6 +7066,9 @@ const QUESTIONS = [
         "correct": true
       }
     ],
-    "correct": "d"
+    "correct": "d",
+    "images": [
+      "assets/img_139.png"
+    ]
   }
 ];
