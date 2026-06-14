@@ -850,15 +850,15 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Đường đi: S-B-G lifo",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
         "text": "Đường đi: S-A-D-G fifo",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d",
+    "correct": "a",
     "images": [
       "assets/img_9.png"
     ]
@@ -1563,7 +1563,7 @@ const QUESTIONS = [
       {
         "letter": "a",
         "text": "Đường đi S-B-G",
-        "correct": false
+        "correct": true
       },
       {
         "letter": "b",
@@ -1581,7 +1581,7 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": null,
+    "correct": "a",
     "images": [
       "assets/img_16.png"
     ]
@@ -5153,15 +5153,15 @@ const QUESTIONS = [
       {
         "letter": "c",
         "text": "Đường đi: S-B-G lifo",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "d",
         "text": "Đường đi: S-A-D-G fifo",
-        "correct": true
+        "correct": false
       }
     ],
-    "correct": "d",
+    "correct": "a",
     "images": [
       "assets/img_67.png"
     ]

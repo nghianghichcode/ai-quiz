@@ -816,7 +816,7 @@
       {
         "letter": "a",
         "text": "Phụ thuộc vào cấu trúc dữ liệu \"frontier\" là FIFO hay LIFO",
-        "correct": false
+        "correct": true
       },
       {
         "letter": "b",
@@ -834,7 +834,7 @@
         "correct": false
       }
     ],
-    "correct": null
+    "correct": "a"
   },
   {
     "chapter": "Chương 1-4",
@@ -1518,12 +1518,12 @@
       {
         "letter": "a",
         "text": "Đường đi S-B-G",
-        "correct": false
+        "correct": true
       },
       {
         "letter": "b",
         "text": "Phụ thuộc vào cấu trúc dữ liệu \"frontier\" là FIFO hay LIFO",
-        "correct": true
+        "correct": false
       },
       {
         "letter": "c",
@@ -1536,7 +1536,7 @@
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "a"
   },
   {
     "chapter": "Chương 1-4 (Ôn tập)",
