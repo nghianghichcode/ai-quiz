@@ -6010,11 +6010,11 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Giả sử p và q là 2 biến logic mệnh đề, khi đó câu ¬(p ⇒ q) có giá trị đúng khi nào?",
+    "question": "Giả sử p và q là 2 biến logic mệnh đề, khi đó câu ￢(p => q) có giá trị đúng khi nào?",
     "options": [
       {
         "letter": "a",
-        "text": "p=true, q= true",
+        "text": "p = true, q = true",
         "correct": false
       },
       {
@@ -6024,12 +6024,12 @@ const QUESTIONS = [
       },
       {
         "letter": "c",
-        "text": "p= false, q = true",
+        "text": "p = false, q = true",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "p=true, q = false",
+        "text": "p = true, q = false",
         "correct": true
       }
     ],
@@ -6037,21 +6037,26 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau tương đương với câu ¬(p ^ q)?",
+    "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau tương đương với câu ￢(p ∧ q) ?",
     "options": [
       {
         "letter": "a",
-        "text": "p⇒q",
+        "text": "p => q",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "¬p ∨ ¬q .¬p ∧ ¬q",
+        "text": "￢p ∨ ￢q",
         "correct": true
       },
       {
+        "letter": "c",
+        "text": "￢p ∧ ￢q",
+        "correct": false
+      },
+      {
         "letter": "d",
-        "text": "¬pVq",
+        "text": "￢p ∨ q",
         "correct": false
       }
     ],
@@ -6059,11 +6064,11 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Giả sử p và q là 2 biến logic mệnh đề, khi đó câu p ⇒ q có giá trị sai khi nào?",
+    "question": "Giả sử p và q là 2 biến logic mệnh đề, khi đó câu p => q có giá trị sai khi nào?",
     "options": [
       {
         "letter": "a",
-        "text": "p=true, q= true",
+        "text": "p = true, q = true",
         "correct": false
       },
       {
@@ -6073,12 +6078,12 @@ const QUESTIONS = [
       },
       {
         "letter": "c",
-        "text": "p= false, q = false",
+        "text": "p = false, q = false",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "p=true, q = false",
+        "text": "p = true, q = false",
         "correct": true
       }
     ],
@@ -6086,26 +6091,26 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Giả sử p, q và s là các biến mệnh đề, câu nào trong các câu sau tương đương với câu p ⇒ (qv s) ?",
+    "question": "Giả sử p, q và s là các biến mệnh đề, câu nào trong các câu sau tương đương với câu p => (q ∨ s) ?",
     "options": [
       {
         "letter": "a",
-        "text": "¬pvqvs",
+        "text": "￢p ∨ q ∨ s",
         "correct": true
       },
       {
         "letter": "b",
-        "text": "“p ∧qws",
+        "text": "￢p ∧ q ∨ s",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "¬pVqAs",
+        "text": "￢p ∨ q ∧ s",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "pvqvs",
+        "text": "p ∨ q ∨ s",
         "correct": false
       }
     ],
@@ -6117,22 +6122,22 @@ const QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "pvq",
+        "text": "p ∨ q",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "p ∧q",
+        "text": "p ∧ q",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "p¬q",
+        "text": "p => q",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "p ∧¬p",
+        "text": "p ∧ ￢p",
         "correct": true
       }
     ],
@@ -6140,26 +6145,26 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho cơ sở tri thức KB = {p ∨ q; ¬q ∨ r}, trong đó p, q và r là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "question": "Cho sơ sở tri thức KB = {p ∨ q; ￢q ∨ r}, trong đó p, q và r là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
     "options": [
       {
-        "letter": "c",
-        "text": "ho cơ sở tri thức KB = {p ∨ q; ¬q ∨ 1}, trong đó p, q var là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
-        "correct": false
-      },
-      {
         "letter": "a",
-        "text": "¬pV ¬r",
+        "text": "￢p ∨ ￢r",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "pvr",
+        "text": "p ∨ r",
         "correct": true
       },
       {
+        "letter": "c",
+        "text": "￢p ∨ r",
+        "correct": false
+      },
+      {
         "letter": "d",
-        "text": "p ∧¬r",
+        "text": "p ∧ ￢r",
         "correct": false
       }
     ],
@@ -6170,23 +6175,23 @@ const QUESTIONS = [
     "question": "Cho p, q và r là các biến mệnh đề, mệnh đề nào sau đây là mệnh đề xác định?",
     "options": [
       {
-        "letter": "c",
-        "text": "hop, q và r là các biến mệnh đề, mệnh đề nào sau đây là mệnh đề xác định?",
-        "correct": false
-      },
-      {
         "letter": "a",
-        "text": "pvqvr",
+        "text": "p ∨ q ∨ r",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "pvqv¬r",
+        "text": "p ∨ q ∨ ￢r",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "p ∧ ￢q ∧ ￢r",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "pv¬qv¬r",
+        "text": "p ∨ ￢q ∨ ￢r",
         "correct": true
       }
     ],
@@ -6194,75 +6199,53 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Giả sử có ký hiệu các mệnh đề: p = \" We will go swimming’ và q = \"We will take a canoe trip\". Khi đó câu \"If we do not go swimming then we will take a canoe trip.\" được biểu diễn như thế nào ?",
+    "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau tương đương với câu (p => q) ?",
     "options": [
       {
         "letter": "a",
-        "text": "¬p⇒q",
-        "correct": true
+        "text": "￢p ∧ q",
+        "correct": false
       },
       {
         "letter": "b",
-        "text": "“q⇒p",
+        "text": "p ∧ ￢q",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "q⇒p",
+        "text": "p ∨ ￢q",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "p¬q",
-        "correct": false
-      }
-    ],
-    "correct": "a"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho cơ sở tri thức KB = {p ∧ q; q ⇒ (s ∨ t); s ⇒ r; ¬t}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
-    "options": [
-      {
-        "letter": "c",
-        "text": "ho cơ sở tri thức KB = {p ∧ q; q ⇒ (s vt); s ⇒ r; 1}, trong đó p, q, r, s va t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
-        "correct": false
-      },
-      {
-        "letter": "a",
-        "text": "¬s",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "T cor Dr",
-        "correct": false
+        "text": "￢p ∨ q",
+        "correct": true
       }
     ],
     "correct": "d"
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho cơ sở tri thức KB = {p ∧ q; p ⇒ (r ∧ s); r ⇒ t}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau cho giá trị là false?",
+    "question": "Giả sử p và q là các biến mệnh đề, câu nào trong các câu sau tương đương với câu (p => q) ?",
     "options": [
       {
-        "letter": "c",
-        "text": "ho cơ sở tri thức KB = {p Aq; p ⇒ (r ∧ s); r ⇒ tỳ, trong đó p, q, r, s và t là các biển mệnh đề. Câu nào trong các câu sau cho giá trị là false?",
-        "correct": false
-      },
-      {
         "letter": "a",
-        "text": "¬pwV ¬q",
+        "text": "￢q => ￢p",
         "correct": true
       },
       {
         "letter": "b",
-        "text": "rv¬s",
+        "text": "￢p ∧ q",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "p ∧ ￢q",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "¬swt",
+        "text": "p ∨ ￢q",
         "correct": false
       }
     ],
@@ -6270,13 +6253,89 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho cơ sở tri thức KB = {p ∧ q; p ⇒ r; (q ∨ r) ⇒ s}, trong đó p, q, r và s là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "question": "Giả sử có ký hiệu các mệnh đề: p = \" We will go swimming\" và q = \"We will take a canoe trip\". Khi đó câu \"If we do not go swimming then we will take a canoe trip.\" được biểu diễn như thế nào ?",
     "options": [
       {
-        "letter": "c",
-        "text": "ho cơ sở tri thức KB = {p ∧ q;p ⇒; (q Vr) ⇒ $}, trong đó p, q, r và s là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+        "letter": "a",
+        "text": "￢p => q",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "￢q => p",
         "correct": false
       },
+      {
+        "letter": "c",
+        "text": "q => p",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "p => q",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho sơ sở tri thức KB = {p ∧ q; q => (s ∨ t); s => r; ￢t}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "￢s",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "T",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "￢r",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "r",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho sơ sở tri thức KB = {p ∧ q; p => (r ∧ s); r => t}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau cho giá trị là false?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "￢p ∨ ￢q",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "r ∨ ￢s",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "s ∨ ￢t",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "￢s ∨ t",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho sơ sở tri thức KB = {p ∧ q; p => r; (q ∨ r) => s}, trong đó p, q, r và s là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "options": [
       {
         "letter": "a",
         "text": "s",
@@ -6284,12 +6343,17 @@ const QUESTIONS = [
       },
       {
         "letter": "b",
-        "text": "Tr",
+        "text": "￢r",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "￢p",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "¬s",
+        "text": "￢s",
         "correct": false
       }
     ],
@@ -6297,11 +6361,11 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Ký hiệu M(r) là tập tất cả các mô hình của câu: r = p Aq với p và q là 2 biến logic mệnh đề. Khi đó:",
+    "question": "Ký hiệu M(r) là tập tất cả các mô hình của câu: r = p ∧ q với p và q là 2 biến logic mệnh đề. Khi đó:",
     "options": [
       {
         "letter": "a",
-        "text": "Mr) = {(p = true, q = false)}",
+        "text": "M(r) = {(p = true, q = false)}",
         "correct": false
       },
       {
@@ -6351,16 +6415,11 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Phát biểu nào sau đây về học máy là SAI?",
+    "question": "Câu trả lời nào sau đây là SAI?",
     "options": [
       {
         "letter": "a",
-        "text": "Dữ liệu cho các thuật toán học máy là các véc¬tơ đặc trưng của các mẫu dữ liệu.",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "Các thuật toán học máy yêu cầu biết trước mô hình của dữ liệu.",
+        "text": "Dữ liệu cho các thuật toán học máy là các véc-tơ đặc trưng của các mẫu dữ liệu. b. Các thuật toán học máy yêu cầu biết trước mô hình của dữ liệu.",
         "correct": true
       },
       {
@@ -6374,17 +6433,12 @@ const QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "a"
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho tập dữ liệu D = {(xᵢ, yᵢ), 1 ≤ i ≤ n}, trong đó xᵢ là véc-tơ dữ liệu vào (input) và yᵢ là dữ liệu ra (output). Bài toán phân lớp yêu cầu:",
+    "question": "Cho tập dữ liệu D = {(x ,y ), 1≤ i ≤ n}, trong đó x là véc-tơ dữ liệu vào (input) và y là dữ liệu ra (output). Bài toán phân lớp yêu cầu:",
     "options": [
-      {
-        "letter": "c",
-        "text": "ho tập dữ liệu D = {(x ,y), 1< i < nỳ, trong đó x là véc¬to dữ liệu vào (input) và y là dữ liệu ra (output). Bài toán phân lớp yêu cầu:",
-        "correct": false
-      },
       {
         "letter": "a",
         "text": "Dữ liệu ra y có thể là liên tục hoặc rời rạc",
@@ -6394,6 +6448,11 @@ const QUESTIONS = [
         "letter": "b",
         "text": "Dữ liệu ra y là rời rạc",
         "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Không có ràng buộc dữ liệu ra y",
+        "correct": false
       },
       {
         "letter": "d",
@@ -6459,7 +6518,7 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Hoc máy là một lĩnh vực con của lĩnh vực nghiên cứu nào?",
+    "question": "Học máy là một lĩnh vực con của lĩnh vực nghiên cứu nào?",
     "options": [
       {
         "letter": "a",
@@ -6486,7 +6545,34 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Loại hoc máy nào tim mối quan hệ của các mẫu khi tập dữ liệu không biết dau ra?",
+    "question": "Cho tập dữ liệu D = {(x ,y ), 1≤ i ≤ n}, trong đó x là véc-tơ dữ liệu vào (input) và y là dữ liệu ra (output). Bài toán hồi quy yêu cầu:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Dữ liệu ra y có thể là liên tục hoặc rời rạc",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Dữ liệu ra y là rời rạc",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Dữ liệu ra y là liên tục",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Không có ràng buộc dữ liệu ra y",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Loại học máy nào tìm mối quan hệ của các mẫu khi tập dữ liệu không biết đầu ra?",
     "options": [
       {
         "letter": "a",
@@ -6513,26 +6599,26 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Thứ tự các bước thực hiện cơ bản của một hệ thống nhận dang ảnh vân tay sẽ như thế nào?",
+    "question": "Thứ tự các bước thực hiện cơ bản của một hệ thống nhận dạng ảnh vân tay sẽ như thế nào?",
     "options": [
       {
         "letter": "a",
-        "text": "Tiền xử lý ¬ trích chọn đặc trưng ¬ nhận dạng.",
+        "text": "Tiền xử lý -> trích chọn đặc trưng -> nhận dạng.",
         "correct": true
       },
       {
         "letter": "b",
-        "text": "Nhận dạng ¬› trích chọn đặc trưng ¬ tiền xử lý",
+        "text": "Nhận dạng -> trích chọn đặc trưng -> tiền xử lý",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "Trích chọn đặc trưng ¬> tiền xử lý ¬ nhận dạng.",
+        "text": "Trích chọn đặc trưng -> tiền xử lý -> nhận dạng.",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "Tiền xử lý ¬ nhận dạng ¬› trích chọn đặc trưng",
+        "text": "Tiền xử lý -> nhận dạng -> trích chọn đặc trưng",
         "correct": false
       }
     ],
@@ -6542,11 +6628,6 @@ const QUESTIONS = [
     "chapter": "Trắc nghiệm tổng hợp",
     "question": "Các thuật toán học máy xây dựng mô hình dữ liệu dựa trên tập dữ liệu nào?",
     "options": [
-      {
-        "letter": "c",
-        "text": "ác thuật toán học máy xây dựng mô hình dữ liệu dựa trên tập dữ liệu nào?",
-        "correct": false
-      },
       {
         "letter": "a",
         "text": "Tập dữ liệu đánh giá (validation data)",
@@ -6558,6 +6639,11 @@ const QUESTIONS = [
         "correct": true
       },
       {
+        "letter": "c",
+        "text": "Tập dữ liệu kiểm tra (test data)",
+        "correct": false
+      },
+      {
         "letter": "d",
         "text": "Không cần dữ liệu",
         "correct": false
@@ -6567,7 +6653,7 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Quá trình các thuật toán học máy xây dung mô hình dựa trên các mẫu dữ liệu gọi là gì?",
+    "question": "Quá trình các thuật toán học máy xây dựng mô hình dựa trên các mẫu dữ liệu gọi là gì?",
     "options": [
       {
         "letter": "a",
@@ -6598,22 +6684,22 @@ const QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "Thu thập dữ liệu ¬ huấn luyện ¬ trích chọn đặc trưng ¬› nhận dạng.",
+        "text": "Thu thập dữ liệu -> huấn luyện -> trích chọn đặc trưng -> nhận dạng.",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "Thu thập dữ liệu ¬ nhận dạng ¬› huấn luyện ¬ trích chọn đặc trưng.",
+        "text": "Thu thập dữ liệu -> nhận dạng -> huấn luyện -> trích chọn đặc trưng.",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "Thu thập dữ liệu ¬ trích chọn đặc trưng ¬ huấn luyện ¬ nhận dạng.",
+        "text": "Thu thập dữ liệu -> trích chọn đặc trưng -> huấn luyện -> nhận dạng.",
         "correct": true
       },
       {
         "letter": "d",
-        "text": "Thu thập dữ liệu ¬ huấn luyện ¬ nhận dạng ¬› trích chọn đặc trưng.",
+        "text": "Thu thập dữ liệu -> huấn luyện -> nhận dạng -> trích chọn đặc trưng.",
         "correct": false
       }
     ],
@@ -6621,26 +6707,134 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Thứ tự các bước thực hiện co bản của một hệ thống nhận dạng ảnh biển số Ôtô sẽ như thế nào?",
+    "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [-1,1]T thì đầu ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
     "options": [
       {
         "letter": "a",
-        "text": "Tiền xử lý ¬ phân đoạn ¬ nhận dạng.",
+        "text": "a = [1,1]T",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "Tiền xử lý ¬ trích chọn đặc trưng ¬ phân đoạn ¬› nhận dạng.",
-        "correct": false
+        "text": "a = [1,0]T",
+        "correct": true
       },
       {
         "letter": "c",
-        "text": "Tiền xửlý ¬ trích chọn đặc trưng ¬ nhận dạng.",
+        "text": "a = [0,1]T",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "Tiền xử lý ¬ phân đoạn ¬> trích chọn đặc trưng ¬ nhận dạng.",
+        "text": "a = [0,0]T",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [-1,1] thì đầu ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "a = [1,1]T",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "a = [0,0]T",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "a = [0,1]T",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "a = [1,0]T",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [1,1] thì đầu+ ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "a = [0,0]T",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "a = [1,1]T",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "a = [1,0]T",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "a = [0,1]T",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [1,1] thì đầu ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "a = [1,0]T",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "a = [0,1]T",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "a = [1,1]T",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "a = [0,0]T",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Thứ tự các bước thực hiện cơ bản của một hệ thống nhận dạng ảnh biển số Ôtô sẽ như thế nào?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Tiền xử lý -> phân đoạn -> nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Tiền xử lý -> trích chọn đặc trưng -> phân đoạn -> nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Tiền xử lý -> trích chọn đặc trưng -> nhận dạng.",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Tiền xử lý -> phân đoạn -> trích chọn đặc trưng -> nhận dạng.",
         "correct": true
       }
     ],
@@ -6648,22 +6842,27 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Bao nhiêu dòng xuất hiện trong bảng chân lý để xác định giá trị của câu: (p ∧ q) ⇒ (p ∨ q)?",
+    "question": "Bao nhiêu dòng xuất hiện trong bảng chân lý để xác định giá trị của câu: (p ∧ q) => (p ∨ q)?",
     "options": [
-      {
-        "letter": "b",
-        "text": "ao nhiêu dòng xuất hiện trong bảng chân lý để xác định giá trị của câu: (p ∧ q) ⇒ (pv q)?",
-        "correct": false
-      },
       {
         "letter": "a",
         "text": "8",
         "correct": false
       },
       {
-        "letter": "c",
-        "text": "2 D4",
+        "letter": "b",
+        "text": "16",
         "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "2",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "4",
+        "correct": true
       }
     ],
     "correct": "d"
@@ -6674,40 +6873,40 @@ const QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "Tiền xử lý ¬> phân đoạn ¬ trích chọn đặc trưng ¬ nhận dạng.",
-        "correct": false
+        "text": "Tiền xử lý -> phân đoạn -> trích chọn đặc trưng -> nhận dạng.",
+        "correct": true
       },
       {
         "letter": "b",
-        "text": "Tiền xử lý ¬ trích chọn đặc trưng ¬ phân đoạn ¬› nhận dạng.",
+        "text": "Tiền xử lý -> trích chọn đặc trưng -> phân đoạn -> nhận dạng.",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "Tiền xử lý ¬ phân đoạn ¬ nhận dạng.",
+        "text": "Tiền xử lý -> phân đoạn -> nhận dạng.",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "Tiền xử lý ¬ trích chọn đặc trưng ¬ nhận dạng.",
-        "correct": true
+        "text": "Tiền xử lý -> trích chọn đặc trưng -> nhận dạng.",
+        "correct": false
       }
     ],
-    "correct": "d"
+    "correct": "a"
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
     "question": "Bài toán hồi quy là bài toán thuộc loại học máy nào?",
     "options": [
       {
-        "letter": "b",
-        "text": "ài toán hồi quy là bài toán thuộc loại học máy nào?",
-        "correct": true
-      },
-      {
         "letter": "a",
         "text": "Học bán giám sát",
         "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Học có giám sát hay có hướng dẫn",
+        "correct": true
       },
       {
         "letter": "c",
@@ -6727,23 +6926,23 @@ const QUESTIONS = [
     "question": "Cho p, q, r và s là các biến mệnh đề, câu nào trong các câu sau KHÔNG phải là dạng chuẩn hội?",
     "options": [
       {
-        "letter": "c",
-        "text": "ho p, q,r và s là các biến mệnh đề, câu nào trong các câu sau KHNG phải là dang chuẩn hỏi?",
-        "correct": false
-      },
-      {
         "letter": "a",
-        "text": "(pvqA(¬rvs)",
+        "text": "(p ∨ q) ∧ (￢r ∨ s)",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "(pV q) A(rvs)",
+        "text": "(p ∨ q) ∧ (r ∨ s)",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "(￢p ∨ q) ∧ (￢r ∨ ￢s)",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "(p ∧q)v(TrAs)",
+        "text": "(p ∧ q) ∨ (￢r ∧ s)",
         "correct": true
       }
     ],
@@ -6751,26 +6950,26 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Giả sử s, t, p va q là các biến mệnh đề, câu nào trong các câu sau có giá trị là false?",
+    "question": "Giả sử s, t, p và q là các biến mệnh đề, câu nào trong các câu sau có giá trị là false?",
     "options": [
       {
         "letter": "a",
-        "text": "sv¬",
+        "text": "s ∨ ￢t",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "¬s ∨ ¬t",
+        "text": "￢s ∨ ￢t",
         "correct": true
       },
       {
         "letter": "c",
-        "text": "¬pwq",
+        "text": "￢p ∨ q",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "¬rWs",
+        "text": "￢r ∨ s",
         "correct": false
       }
     ],
@@ -6778,13 +6977,8 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho cơ sở tri thức KB = {p ∧ q; p ⇒ r; r ⇒ ¬s ∨ t; ¬q ∨ s}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "question": "Cho sơ sở tri thức KB = {p ∧ q; p => r; r => ￢s ∨ t; ￢q ∨ s}, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
     "options": [
-      {
-        "letter": "c",
-        "text": "ho cơ sở tri thức KB = {p Ag; p ⇒ r;r ⇒ ¬s vt; ¬q ∨ sỳ, trong đó p, q,r, s và t là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
-        "correct": false
-      },
       {
         "letter": "a",
         "text": "t",
@@ -6792,12 +6986,17 @@ const QUESTIONS = [
       },
       {
         "letter": "b",
-        "text": "Tr ct",
+        "text": "￢r",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "￢t",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "¬s",
+        "text": "￢s",
         "correct": false
       }
     ],
@@ -6805,191 +7004,56 @@ const QUESTIONS = [
   },
   {
     "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho cơ sở tri thức KB = {p Aq; p ⇒ r; (q ∨ r) ⇒ s}, trong đó p, q, r và s là các biển mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
+    "question": "Cho sơ sở tri thức KB = {¬p ∨ q; ¬q ∨ r}, trong đó p, q và r là các biến mệnh đề. Câu nào trong các câu sau được suy diễn từ KB?",
     "options": [
       {
         "letter": "a",
-        "text": "i a¬",
+        "text": "¬p ∨ ¬r",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "¬p",
+        "text": "p ∨ r",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "¬",
+        "text": "¬p ∨ r",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "p ∧ ¬r",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "chapter": "Trắc nghiệm tổng hợp",
+    "question": "Cho mạng nơ-ron như sau, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [1,-1] thì đầu ra của mạng a = [a1 ,a2 ] bằng bao nhiêu?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "a = [1,0]T",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "a = [0,1]T",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "a = [1,1]T",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "s",
+        "text": "a = [0,0]T",
         "correct": true
       }
     ],
     "correct": "d"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho tập dữ liệu D = {(x;y), 1< 7< n}, trong đó x; là véc-tơ dữ liệu vào (input) và y; là dữ liệu ra (output). Mục tiêu của",
-    "options": [
-      {
-        "letter": "a",
-        "text": "fix=y",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "fixd<yi",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "0",
-        "correct": true
-      },
-      {
-        "letter": "d",
-        "text": "w>y",
-        "correct": false
-      }
-    ],
-    "correct": "c"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho cơ sở tri thức KB = {p ∨ q; ¬q Vr}, trong đó p, q và r là các biến mệnh đề. Câu nào trong các câu sau được suy Câu trỏ lời đã diễn từ KB?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "P a¬pVr",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "¬pV¬",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "epact",
-        "correct": true
-      },
-      {
-        "letter": "d",
-        "text": "pwr",
-        "correct": false
-      }
-    ],
-    "correct": "c"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho cơ sở tri thức KB = {p Aq; p ⇒ (r ∧ S); s ⇒ tỳ, trong đó p, q, r, s và t là các biến mệnh đề. Câu nào trong các câu eee sau có giá trị là false?",
-    "options": [
-      {
-        "letter": "a",
-        "text": "¬pVq",
-        "correct": true
-      },
-      {
-        "letter": "b",
-        "text": "¬V¬t",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "sv¬t",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "vs",
-        "correct": false
-      }
-    ],
-    "correct": "a"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho mạng nơ-ron, trong đó f là hàm hardlim. Nếu đầu vào của mạng p = [1,-1]\" thì dau ra của mang a= Câu tr [oh đãi [a¡,ag]T bằng bao nhiêu? a, at điểm 250, pỚps. ; 4 |] a, Ÿ ostes a -1",
-    "options": [
-      {
-        "letter": "a",
-        "text": "a=fofT",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "a=nor",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "a=(oo",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "aa=nar",
-        "correct": true
-      }
-    ],
-    "correct": "d"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho tập dữ liệu D = {(x;y)) 1< i < nỳ, trong đó x; là véc-tơ dữ liệu vào (input) và y là dữ liệu ra (output). Bài toán ner Saas aren phân lớp yêu cầu:",
-    "options": [
-      {
-        "letter": "a",
-        "text": "V",
-        "correct": false
-      },
-      {
-        "letter": "b",
-        "text": "Không có ràng buộc dữ liệu ra yi",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "Dữ liệu ray; là rời rạc",
-        "correct": true
-      },
-      {
-        "letter": "d",
-        "text": "Dữ liệu ray; có thế là liên tục hoặc rời rạc",
-        "correct": false
-      }
-    ],
-    "correct": "c"
-  },
-  {
-    "chapter": "Trắc nghiệm tổng hợp",
-    "question": "Cho tập dữ liệu D = (x,y), 1< / <n}, trong đó x; là véc-tơ dữ liệu vào (input) và y; là dữ liệu ra (output). Bài toán hồi Bi) rồi quy yêu câu:",
-    "options": [
-      {
-        "letter": "a",
-        "text": "Dữ liệu ra y, là liên tục",
-        "correct": true
-      },
-      {
-        "letter": "b",
-        "text": "Dữ liệu ray; là rời rạc",
-        "correct": false
-      },
-      {
-        "letter": "c",
-        "text": "g Dữ liệu ra y¡ có thể là liên tục hoặc rời rạc",
-        "correct": false
-      },
-      {
-        "letter": "d",
-        "text": "Không có ràng buộc dữ liệu ra y¡",
-        "correct": false
-      }
-    ],
-    "correct": "a"
   }
 ];
